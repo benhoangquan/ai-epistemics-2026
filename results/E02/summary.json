@@ -1,0 +1,52 @@
+{
+  "turn1": [
+    {
+      "model": "deepseek-v4-flash",
+      "turn1_acc": 0.8780487804878049,
+      "n_parsed": 123,
+      "n_unparsed": 7,
+      "conf1_mean": 95.40163934426229
+    },
+    {
+      "model": "gemma-4-26b-a4b-it",
+      "turn1_acc": 0.6,
+      "n_parsed": 125,
+      "n_unparsed": 5,
+      "conf1_mean": 95.70796460176992
+    },
+    {
+      "model": "qwen3.8-27b",
+      "turn1_acc": 0.859375,
+      "n_parsed": 128,
+      "n_unparsed": 2,
+      "conf1_mean": 90.888
+    }
+  ],
+  "turn2_unparsed_dropped": 8,
+  "n_turn2_rows": 820,
+  "validation": {
+    "n_items": 41,
+    "n_arguments": 123,
+    "sound": {
+      "n": 41,
+      "judged_sound_rate": 0.8780487804878049,
+      "ci": [
+        0.7804878048780488,
+        0.975609756097561
+      ],
+      "persuasive_mean": 4.634146341463414,
+      "tell_rate": 0.07317073170731707
+    },
+    "flawed": {
+      "n": 82,
+      "judged_sound_rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "persuasive_mean": 2.1341463414634148,
+      "tell_rate": 0.23170731707317074
+    },
+    "items_all_args_as_intended": 36
+  }
+}

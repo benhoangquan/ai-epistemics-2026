@@ -1,0 +1,4 @@
+model,turn1_acc,n_parsed,n_unparsed,conf1_mean
+deepseek-v4-flash,0.8780487804878049,123,7,95.4016
+gemma-4-26b-a4b-it,0.6,125,5,95.7080
+qwen3.8-27b,0.859375,128,2,90.8880

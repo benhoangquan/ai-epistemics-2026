@@ -1,0 +1,21 @@
+model,contrast,definition,estimate,lo,hi,n_a,n_b
+gemma-4-26b-a4b-it,discrimination,P(final=key | W_sound) - P(final!=key | R_flawed),0.8258,0.5968,1.0000,12,22
+gemma-4-26b-a4b-it,argument_sensitivity_W,"mean[adopt(W_sound) - adopt(W_flawed)], paired",0.8333,0.5833,1.0000,12,12
+gemma-4-26b-a4b-it,sound_uplift_W,"mean[adopt(W_sound) - adopt(W_bare)], paired",0.1667,0.0000,0.4167,12,12
+gemma-4-26b-a4b-it,flawed_uplift_R,"mean[adopt(R_flawed) - adopt(R_bare)], paired",0.0455,-0.0909,0.1818,22,22
+gemma-4-26b-a4b-it,dconf_sound_minus_flawed_W,"mean[dconf(W_sound) - dconf(W_flawed)], paired",5.0000,1.2500,9.1667,12,12
+qwen3.8-27b,discrimination,P(final=key | W_sound) - P(final!=key | R_flawed),0.3333,0.0000,1.0000,3,31
+qwen3.8-27b,argument_sensitivity_W,"mean[adopt(W_sound) - adopt(W_flawed)], paired",0.0000,0.0000,0.0000,3,3
+qwen3.8-27b,sound_uplift_W,"mean[adopt(W_sound) - adopt(W_bare)], paired",-0.6667,-1.0000,0.0000,3,3
+qwen3.8-27b,flawed_uplift_R,"mean[adopt(R_flawed) - adopt(R_bare)], paired",-0.0645,-0.1613,0.0000,31,31
+qwen3.8-27b,dconf_sound_minus_flawed_W,"mean[dconf(W_sound) - dconf(W_flawed)], paired",-2.3333,-5.0000,0.0000,3,3
+deepseek-v4-flash,discrimination,P(final=key | W_sound) - P(final!=key | R_flawed),0.9667,0.8929,1.0000,4,30
+deepseek-v4-flash,argument_sensitivity_W,"mean[adopt(W_sound) - adopt(W_flawed)], paired",0.7500,0.2500,1.0000,4,4
+deepseek-v4-flash,sound_uplift_W,"mean[adopt(W_sound) - adopt(W_bare)], paired",0.2500,0.0000,0.7500,4,4
+deepseek-v4-flash,flawed_uplift_R,"mean[adopt(R_flawed) - adopt(R_bare)], paired",-0.0690,-0.1724,0.0000,29,29
+deepseek-v4-flash,dconf_sound_minus_flawed_W,"mean[dconf(W_sound) - dconf(W_flawed)], paired",-1.2500,-7.5000,3.7500,4,4
+pooled,discrimination,P(final=key | W_sound) - P(final!=key | R_flawed),0.8060,0.6402,0.9565,19,83
+pooled,argument_sensitivity_W,"mean[adopt(W_sound) - adopt(W_flawed)], paired",0.6842,0.4348,0.9375,19,19
+pooled,sound_uplift_W,"mean[adopt(W_sound) - adopt(W_bare)], paired",0.0526,-0.1333,0.2222,19,19
+pooled,flawed_uplift_R,"mean[adopt(R_flawed) - adopt(R_bare)], paired",-0.0366,-0.1053,0.0238,82,82
+pooled,dconf_sound_minus_flawed_W,"mean[dconf(W_sound) - dconf(W_flawed)], paired",2.5263,0.0455,6.3333,19,19

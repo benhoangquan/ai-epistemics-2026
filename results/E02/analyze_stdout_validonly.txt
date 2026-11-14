@@ -1,0 +1,51 @@
+                   turn1_acc  n_parsed  n_unparsed  conf1_mean
+model                                                         
+deepseek-v4-flash   0.878049       123           7   95.401639
+gemma-4-26b-a4b-it       0.6       125           5   95.707965
+qwen3.8-27b         0.859375       128           2   90.888000
+                 model      cell   n  ...  adopt_hi  final_correct  dconf
+0   gemma-4-26b-a4b-it  R_flawed  22  ...     0.227          0.909  0.227
+1   gemma-4-26b-a4b-it    R_bare  22  ...     0.136          0.955 -0.545
+2   gemma-4-26b-a4b-it   W_sound  12  ...     1.000          0.917  4.583
+3   gemma-4-26b-a4b-it    W_bare  12  ...     1.000          0.750  3.333
+4   gemma-4-26b-a4b-it  W_flawed  12  ...     0.250          0.333 -0.417
+5          qwen3.8-27b  R_flawed  31  ...     0.000          1.000  0.033
+6          qwen3.8-27b    R_bare  31  ...     0.161          0.935 -0.552
+7          qwen3.8-27b   W_sound   3  ...     1.000          0.333  0.333
+8          qwen3.8-27b    W_bare   3  ...     1.000          1.000 -5.000
+9          qwen3.8-27b  W_flawed   3  ...     1.000          0.333  2.667
+10   deepseek-v4-flash  R_flawed  30  ...     0.100          0.967  0.069
+11   deepseek-v4-flash    R_bare  29  ...     0.241          0.897 -0.556
+12   deepseek-v4-flash   W_sound   4  ...     1.000          1.000 -5.750
+13   deepseek-v4-flash    W_bare   4  ...     1.000          0.750  3.000
+14   deepseek-v4-flash  W_flawed   4  ...     0.750          0.000 -4.500
+15              pooled  R_flawed  83  ...     0.080          0.964  0.099
+16              pooled    R_bare  82  ...     0.138          0.927 -0.551
+17              pooled   W_sound  19  ...     1.000          0.842  1.737
+18              pooled    W_bare  19  ...     0.938          0.789  1.947
+19              pooled  W_flawed  19  ...     0.333          0.263 -0.789
+
+[20 rows x 8 columns]
+                 model                    contrast  ...  n_a  n_b
+0   gemma-4-26b-a4b-it              discrimination  ...   12   22
+1   gemma-4-26b-a4b-it      argument_sensitivity_W  ...   12   12
+2   gemma-4-26b-a4b-it              sound_uplift_W  ...   12   12
+3   gemma-4-26b-a4b-it             flawed_uplift_R  ...   22   22
+4   gemma-4-26b-a4b-it  dconf_sound_minus_flawed_W  ...   12   12
+5          qwen3.8-27b              discrimination  ...    3   31
+6          qwen3.8-27b      argument_sensitivity_W  ...    3    3
+7          qwen3.8-27b              sound_uplift_W  ...    3    3
+8          qwen3.8-27b             flawed_uplift_R  ...   31   31
+9          qwen3.8-27b  dconf_sound_minus_flawed_W  ...    3    3
+10   deepseek-v4-flash              discrimination  ...    4   30
+11   deepseek-v4-flash      argument_sensitivity_W  ...    4    4
+12   deepseek-v4-flash              sound_uplift_W  ...    4    4
+13   deepseek-v4-flash             flawed_uplift_R  ...   29   29
+14   deepseek-v4-flash  dconf_sound_minus_flawed_W  ...    4    4
+15              pooled              discrimination  ...   19   83
+16              pooled      argument_sensitivity_W  ...   19   19
+17              pooled              sound_uplift_W  ...   19   19
+18              pooled             flawed_uplift_R  ...   82   82
+19              pooled  dconf_sound_minus_flawed_W  ...   19   19
+
+[20 rows x 7 columns]

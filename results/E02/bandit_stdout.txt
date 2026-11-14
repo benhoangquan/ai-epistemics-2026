@@ -1,0 +1,106 @@
+[bandit] subject = qwen3.8-27b
+[bandit] train episodes: 15 should-switch, 145 should-hold; held-out items 50
+[bandit] pulls 8/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.75, fresh_solve=0.67, bayesian=0.67, llm_1=0.67, llm_2=0.50, llm_3=0.67
+[bandit] pulls 16/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.67, fresh_solve=0.40, bayesian=0.75, llm_1=0.67, llm_2=0.67, llm_3=0.75
+[bandit] pulls 24/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.57, fresh_solve=0.40, bayesian=0.60, llm_1=0.50, llm_2=0.75, llm_3=0.83
+[bandit] pulls 32/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.57, fresh_solve=0.50, bayesian=0.60, llm_1=0.50, llm_2=0.83, llm_3=0.89
+[bandit] pulls 40/160; posterior means baseline=0.50, firm=0.67, evidence_gate=0.62, fresh_solve=0.50, bayesian=0.60, llm_1=0.40, llm_2=0.88, llm_3=0.90
+[bandit] pulls 48/160; posterior means baseline=0.50, firm=0.80, evidence_gate=0.62, fresh_solve=0.50, bayesian=0.60, llm_1=0.40, llm_2=0.89, llm_3=0.85
+[bandit] pulls 56/160; posterior means baseline=0.50, firm=0.57, evidence_gate=0.62, fresh_solve=0.50, bayesian=0.60, llm_1=0.40, llm_2=0.71, llm_3=0.86
+[bandit] pulls 64/160; posterior means baseline=0.50, firm=0.67, evidence_gate=0.62, fresh_solve=0.57, bayesian=0.60, llm_1=0.40, llm_2=0.71, llm_3=0.79
+[bandit] pulls 72/160; posterior means baseline=0.50, firm=0.70, evidence_gate=0.62, fresh_solve=0.70, bayesian=0.60, llm_1=0.40, llm_2=0.73, llm_3=0.77
+[bandit] pulls 80/160; posterior means baseline=0.60, firm=0.77, evidence_gate=0.62, fresh_solve=0.70, bayesian=0.67, llm_1=0.40, llm_2=0.73, llm_3=0.74
+[bandit] pulls 88/160; posterior means baseline=0.60, firm=0.81, evidence_gate=0.67, fresh_solve=0.73, bayesian=0.71, llm_1=0.40, llm_2=0.73, llm_3=0.74
+[bandit] pulls 96/160; posterior means baseline=0.60, firm=0.80, evidence_gate=0.64, fresh_solve=0.75, bayesian=0.71, llm_1=0.40, llm_2=0.73, llm_3=0.74
+[bandit] pulls 104/160; posterior means baseline=0.60, firm=0.76, evidence_gate=0.64, fresh_solve=0.80, bayesian=0.71, llm_1=0.40, llm_2=0.75, llm_3=0.75
+[bandit] pulls 112/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.64, fresh_solve=0.81, bayesian=0.70, llm_1=0.40, llm_2=0.75, llm_3=0.75
+[bandit] pulls 120/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.69, fresh_solve=0.83, bayesian=0.67, llm_1=0.40, llm_2=0.76, llm_3=0.76
+[bandit] pulls 128/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.69, fresh_solve=0.87, bayesian=0.67, llm_1=0.40, llm_2=0.76, llm_3=0.77
+[bandit] pulls 136/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.71, fresh_solve=0.85, bayesian=0.67, llm_1=0.40, llm_2=0.76, llm_3=0.74
+[bandit] pulls 144/160; posterior means baseline=0.67, firm=0.70, evidence_gate=0.73, fresh_solve=0.86, bayesian=0.67, llm_1=0.57, llm_2=0.78, llm_3=0.75
+[bandit] pulls 152/160; posterior means baseline=0.67, firm=0.67, evidence_gate=0.73, fresh_solve=0.88, bayesian=0.67, llm_1=0.57, llm_2=0.79, llm_3=0.76
+[bandit] pulls 160/160; posterior means baseline=0.67, firm=0.67, evidence_gate=0.79, fresh_solve=0.85, bayesian=0.69, llm_1=0.62, llm_2=0.80, llm_3=0.76
+[bandit] best arm: fresh_solve
+[bandit] held-out summary -> /home/ben/remote-work/ai-epistemics-2026/results/E02/bandit_heldout.json
+{
+  "subject": "qwen3.8-27b",
+  "best_arm": "fresh_solve",
+  "n_heldout_items": 50,
+  "arms": {
+    "baseline": {
+      "n_episodes": 87,
+      "mean_reward_train_cells": 0.8988095238095238,
+      "R_flawed": {
+        "n": 40,
+        "adopt": 0.025,
+        "final_correct": 0.975
+      },
+      "R_bare": {
+        "n": 38,
+        "adopt": 0.02631578947368421,
+        "final_correct": 0.9736842105263158
+      },
+      "W_sound": {
+        "n": 3,
+        "adopt": 0.6666666666666666,
+        "final_correct": 0.6666666666666666
+      },
+      "W_bare": {
+        "n": 3,
+        "adopt": 1.0,
+        "final_correct": 1.0
+      },
+      "W_flawed": {
+        "n": 3,
+        "adopt": 1.0,
+        "final_correct": 0.0
+      },
+      "discrimination": 0.6416666666666666
+    },
+    "fresh_solve": {
+      "n_episodes": 88,
+      "mean_reward_train_cells": 0.8764705882352941,
+      "R_flawed": {
+        "n": 39,
+        "adopt": 0.05128205128205128,
+        "final_correct": 0.9487179487179487
+      },
+      "R_bare": {
+        "n": 40,
+        "adopt": 0.05,
+        "final_correct": 0.95
+      },
+      "W_sound": {
+        "n": 3,
+        "adopt": 0.6666666666666666,
+        "final_correct": 0.6666666666666666
+      },
+      "W_bare": {
+        "n": 3,
+        "adopt": 0.3333333333333333,
+        "final_correct": 0.3333333333333333
+      },
+      "W_flawed": {
+        "n": 3,
+        "adopt": 0.3333333333333333,
+        "final_correct": 0.0
+      },
+      "discrimination": 0.6153846153846153,
+      "paired_vs_baseline": {
+        "n_paired_episodes": 83,
+        "n_items": 43,
+        "reward_diff": -0.024096385542168676,
+        "reward_diff_ci": [
+          -0.08333333333333333,
+          0.018518518518518517
+        ],
+        "W_sound_acc_diff": 0.0,
+        "W_sound_acc_diff_ci": [
+          0.0,
+          0.0
+        ],
+        "n_W_sound_pairs": 3
+      }
+    }
+  }
+}

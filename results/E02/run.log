@@ -1,0 +1,146 @@
+[items] wrote 130 items to /home/ben/remote-work/ai-epistemics-2026/results/E02/items.jsonl
+[rebuttals] mmlupro-911 unusable output (truncated=True): ''
+[rebuttals] mmlupro-1958 unusable output (truncated=True): ''
+[rebuttals] mmlupro-1060 unusable output (truncated=True): ''
+[rebuttals] 0 ok, 3 failed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttals.jsonl
+[turn1] 15 responses, 14 parsed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/turn1.jsonl
+[turn1] gemma-4-26b-a4b-it: acc 4/5
+[turn1] qwen3.8-27b: acc 4/5
+[turn1] deepseek-v4-flash: acc 3/4
+[rebuttals] mmlupro-1060 unusable output (truncated=False): '{\n  "D1": "C",\n  "D2": "D",\n  "sound": "Here\'s why: The doctrine of worthier title applies when a grant attempts to create a future interest in the grantor\'s own heirs, as it does with the phrase \\"to'
+[rebuttals] 4 ok, 1 failed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttals.jsonl
+[turn1] retrying 1 empty truncated outputs with max_tokens=4000
+[turn1] 15 responses, 15 parsed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/turn1.jsonl
+[turn1] gemma-4-26b-a4b-it: acc 4/5
+[turn1] qwen3.8-27b: acc 4/5
+[turn1] deepseek-v4-flash: acc 3/5
+[validate] 6 argument ratings from 2 items -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttal_validation.jsonl
+=== 2026-11-14T16:35:31Z main run: rebuttals + turn1 (130 items) ===
+[rebuttals] 50/130 done, spent $0.242 total
+[rebuttals] 100/130 done, spent $0.396 total
+[rebuttals] mmlupro-1060 unusable output (truncated=False): '{\n  "D1": "C",\n  "D2": "D",\n  "sound": "Here\'s why: The doctrine of worthier title applies when a grant attempts to create a future interest in the grantor\'s own heirs, as it does with the phrase \\"to'
+[rebuttals] mmlupro-1060 unusable output (truncated=False): '{\n  "D1": "C",\n  "D2": "D",\n  "sound": "Here\'s why: The doctrine of worthier title applies when a grant attempts to create a future interest in the grantor\'s own heirs, as it does with the phrase \\"to'
+[rebuttals] mmlupro-1500 unusable output (truncated=False): '{"D1": "A", "D2": "E", "sound": "Here\'s why: The friend lacked the specific intent to commit the target crime. At common law, complicity and conspiracy both require a genuine shared intent to further '
+[rebuttals] mmlupro-1500 unusable output (truncated=False): '{"D1": "A", "D2": "E", "sound": "Here\'s why: The friend lacked the specific intent to commit the target crime. At common law, complicity and conspiracy both require a genuine shared intent to further '
+[rebuttals] mmlupro-1355 unusable output (truncated=False): '{"D1": "C", "D2": "I", "sound": "Here\'s why: the investigator\'s testimony is admissible. The defendant is the opposing party in a criminal prosecution, and her offer to trade information to end the br'
+[rebuttals] mmlupro-1355 unusable output (truncated=False): '{"D1": "C", "D2": "I", "sound": "Here\'s why: the investigator\'s testimony is admissible. The defendant is the opposing party in a criminal prosecution, and her offer to trade information to end the br'
+[rebuttals] mmlupro-10873 unusable output (truncated=False): '```json\n{\n  "D1": "J",\n  "D2": "B",\n  "sound": "Here\'s why: The Universal Law formulation operates as a strict logical consistency test. It asks whether an agent can rationally will the maxim of their'
+[rebuttals] mmlupro-10873 unusable output (truncated=False): '```json\n{\n  "D1": "J",\n  "D2": "B",\n  "sound": "Here\'s why: The Universal Law formulation operates as a strict logical consistency test. It asks whether an agent can rationally will the maxim of their'
+[rebuttals] mmlupro-11124 unusable output (truncated=False): '{\n  "D1": "C",\n  "D2": "F",\n  "sound": "Here\'s why: predicate logic convention uses an uppercase letter for a predicate and a lowercase letter for a singular subject. The predicate P means \'is a punk '
+[rebuttals] mmlupro-11124 unusable output (truncated=False): '{\n  "D1": "C",\n  "D2": "F",\n  "sound": "Here\'s why: predicate logic convention uses an uppercase letter for a predicate and a lowercase letter for a singular subject. The predicate P means \'is a punk '
+[rebuttals] mmlupro-5042 unusable output (truncated=False): '```json\n{\n  "D1": "F",\n  "D2": "H",\n  "sound": "Here\'s why: the archaeological record demonstrates that empires with identical material advantages, such as secure food storage and strong bureaucracies'
+[rebuttals] mmlupro-5042 unusable output (truncated=False): '```json\n{\n  "D1": "F",\n  "D2": "H",\n  "sound": "Here\'s why: the archaeological record demonstrates that empires with identical material advantages, such as secure food storage and strong bureaucracies'
+[rebuttals] mmlupro-4862 unusable output (truncated=False): '{\n  "D1": "A",\n  "D2": "G",\n  "sound": "Here\'s why: the last glacial maximum peaked around 20,000 to 25,000 years ago, lowering sea levels and creating land bridges into the arid interior. Archaeologi'
+[rebuttals] mmlupro-4862 unusable output (truncated=False): '{\n  "D1": "A",\n  "D2": "G",\n  "sound": "Here\'s why: the last glacial maximum peaked around 20,000 to 25,000 years ago, lowering sea levels and creating land bridges into the arid interior. Archaeologi'
+[rebuttals] mmlupro-4937 unusable output (truncated=False): '```json\n{\n  "D1": "B",\n  "D2": "H",\n  "sound": "Here\'s why: The Hoabinhian tradition is named after Hoa Binh province in Vietnam, where these distinct pebble-tool assemblages were first identified. Th'
+[rebuttals] mmlupro-4937 unusable output (truncated=False): '```json\n{\n  "D1": "B",\n  "D2": "H",\n  "sound": "Here\'s why: The Hoabinhian tradition is named after Hoa Binh province in Vietnam, where these distinct pebble-tool assemblages were first identified. Th'
+[rebuttals] mmlupro-6843 unusable output (truncated=False): '{"D1": "B", "D2": "G", "sound": "Here\'s why: Adjusted R-squared is structurally an information criterion because it explicitly penalizes the residual sum of squares based on the number of model parame'
+[rebuttals] mmlupro-6843 unusable output (truncated=False): '{"D1": "B", "D2": "G", "sound": "Here\'s why: Adjusted R-squared is structurally an information criterion because it explicitly penalizes the residual sum of squares based on the number of model parame'
+[rebuttals] mmlupro-7514 unusable output (truncated=False): '{\n  "D1": "A",\n  "D2": "F",\n  "sound": "Here\'s why: under the Pareto criterion, exploitation requires making one party worse off, yet both nations achieved absolute gains of $50 million and $5 million'
+[rebuttals] mmlupro-7514 unusable output (truncated=False): '{\n  "D1": "A",\n  "D2": "F",\n  "sound": "Here\'s why: under the Pareto criterion, exploitation requires making one party worse off, yet both nations achieved absolute gains of $50 million and $5 million'
+[rebuttals] mmlupro-7310 unusable output (truncated=False): '{"D1": "B", "D2": "D", "sound": "Here\'s why: (i) and (iii) are the correct pair. The dependent variable y is called the regressand because it is the variable being regressed upon. It is also called th'
+[rebuttals] mmlupro-7310 unusable output (truncated=False): '{"D1": "B", "D2": "D", "sound": "Here\'s why: (i) and (iii) are the correct pair. The dependent variable y is called the regressand because it is the variable being regressed upon. It is also called th'
+[rebuttals] mmlupro-1990 unusable output (truncated=False): '```json\n{\n  "D1": "D",\n  "D2": "I",\n  "sound": "Here\'s why: The p-value represents the proportion of examinees answering correctly, and maximizing differentiation requires maximizing the variance of i'
+[rebuttals] mmlupro-1990 unusable output (truncated=False): '```json\n{\n  "D1": "D",\n  "D2": "I",\n  "sound": "Here\'s why: The p-value represents the proportion of examinees answering correctly, and maximizing differentiation requires maximizing the variance of i'
+[rebuttals] mmlupro-2066 unusable output (truncated=False): '```json\n{\n  "D1": "C",\n  "D2": "A",\n  "sound": "Here\'s why: The presence of hallucinations and social withdrawal for six weeks perfectly fits Schizophreniform Disorder. Schizophrenia requires continuo'
+[rebuttals] mmlupro-2066 unusable output (truncated=False): '```json\n{\n  "D1": "C",\n  "D2": "A",\n  "sound": "Here\'s why: The presence of hallucinations and social withdrawal for six weeks perfectly fits Schizophreniform Disorder. Schizophrenia requires continuo'
+[rebuttals] mmlupro-2164 unusable output (truncated=False): '{\n  "D1": "G",\n  "D2": "A",\n  "sound": "Here\'s why: Kohler placed chimpanzees in enclosures with boxes and sticks that were out of reach. The apes had to stack boxes to reach bananas. This demonstrate'
+[rebuttals] mmlupro-2164 unusable output (truncated=False): '{\n  "D1": "G",\n  "D2": "A",\n  "sound": "Here\'s why: Kohler placed chimpanzees in enclosures with boxes and sticks that were out of reach. The apes had to stack boxes to reach bananas. This demonstrate'
+[rebuttals] mmlupro-6056 unusable output (truncated=False): '```json\n{\n  "D1": "H",\n  "D2": "J",\n  "sound": "Here\'s why: The term \'non-coding RNA\' explicitly classifies RNA molecules that function without being translated into proteins. Messenger RNA is precise'
+[rebuttals] mmlupro-6056 unusable output (truncated=False): '```json\n{\n  "D1": "H",\n  "D2": "J",\n  "sound": "Here\'s why: The term \'non-coding RNA\' explicitly classifies RNA molecules that function without being translated into proteins. Messenger RNA is precise'
+[rebuttals] mmlupro-6147 unusable output (truncated=False): '```json\n{\n  "D1": "H",\n  "D2": "E",\n  "sound": "Here\'s why: peak flow meters measure the maximum speed of air pushed out of the lungs. The device captures the fastest burst of exhaled air during a for'
+[rebuttals] mmlupro-6147 unusable output (truncated=False): '```json\n{\n  "D1": "H",\n  "D2": "E",\n  "sound": "Here\'s why: peak flow meters measure the maximum speed of air pushed out of the lungs. The device captures the fastest burst of exhaled air during a for'
+[rebuttals] mmlupro-6352 unusable output (truncated=False): '```json\n{\n  "D1": "B",\n  "D2": "F",\n  "sound": "Here\'s why: The correct answer is deep to its inferior border. The intercostal nerves and vessels run in the costal groove on the inferior aspect of eac'
+[rebuttals] mmlupro-6352 unusable output (truncated=False): '```json\n{\n  "D1": "B",\n  "D2": "F",\n  "sound": "Here\'s why: The correct answer is deep to its inferior border. The intercostal nerves and vessels run in the costal groove on the inferior aspect of eac'
+[rebuttals] mmlupro-6784 unusable output (truncated=False): '```json\n{\n  "D1": "E",\n  "D2": "D",\n  "sound": "Here\'s why: The correct mechanism relies on psychoeducation plus strategy training, not just one or the other. Research shows that when older adults lea'
+[rebuttals] mmlupro-6784 unusable output (truncated=False): '```json\n{\n  "D1": "E",\n  "D2": "D",\n  "sound": "Here\'s why: The correct mechanism relies on psychoeducation plus strategy training, not just one or the other. Research shows that when older adults lea'
+[rebuttals] mmlupro-825 unusable output (truncated=False): '```json\n{\n  "D1": "F",\n  "D2": "J",\n  "sound": "Here\'s why: The Sherman Antitrust Act specifically criminalizes horizontal price-fixing agreements among competitors at the same level of distribution, '
+[rebuttals] mmlupro-825 unusable output (truncated=False): '```json\n{\n  "D1": "F",\n  "D2": "J",\n  "sound": "Here\'s why: The Sherman Antitrust Act specifically criminalizes horizontal price-fixing agreements among competitors at the same level of distribution, '
+[rebuttals] mmlupro-278 unusable output (truncated=False): '{\n  "D1": "B",\n  "D2": "J",\n  "sound": "Here\'s why: The exact time method requires calculating ordinary simple interest using a 365-day year. The formula is Principal × Rate × Time, where Time is 60 d'
+[rebuttals] mmlupro-278 unusable output (truncated=False): '{\n  "D1": "B",\n  "D2": "J",\n  "sound": "Here\'s why: The exact time method requires calculating ordinary simple interest using a 365-day year. The formula is Principal × Rate × Time, where Time is 60 d'
+[rebuttals] 110 ok, 20 failed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttals.jsonl
+[rebuttals] 110 ok, 20 failed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttals.jsonl
+[rebuttals] mmlupro-825 unusable output (truncated=False): '```json\n{\n  "D1": "F",\n  "D2": "J",\n  "sound": "Here\'s why: The Sherman Antitrust Act specifically criminalizes horizontal price-fixing agreements among competitors at the same level of distribution, '
+[rebuttals] 129 ok, 1 failed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttals.jsonl
+[rebuttals] 130 ok, 0 failed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttals.jsonl
+[turn1] 50/390 done, spent $0.536 total
+[turn1] 100/390 done, spent $0.559 total
+[turn1] 150/390 done, spent $0.604 total
+[turn1] 200/390 done, spent $0.654 total
+[turn1] 250/390 done, spent $0.717 total
+[turn1] 300/390 done, spent $0.777 total
+[turn1] 350/390 done, spent $0.796 total
+[turn1] retrying 19 empty truncated outputs with max_tokens=4000
+[turn1] retrying 19 empty truncated outputs with max_tokens=4000
+[turn1] 390 responses, 376 parsed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/turn1.jsonl
+[turn1] 390 responses, 376 parsed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/turn1.jsonl
+[turn1] gemma-4-26b-a4b-it: acc 75/125
+[turn1] gemma-4-26b-a4b-it: acc 75/125
+[turn1] qwen3.8-27b: acc 110/128
+[turn1] qwen3.8-27b: acc 110/128
+[turn1] deepseek-v4-flash: acc 108/123
+[turn1] deepseek-v4-flash: acc 108/123
+=== 2026-11-14T21:00:25Z relaunch after deadlock (coordinator killed old pipeline) ===
+=== 2026-11-14T21:00:25Z pipeline: turn2 core cells ===
+[turn2] 459 calls planned
+[turn2] 50/459 done, spent $0.834 total
+[turn2] 100/459 done, spent $0.851 total
+[turn2] 150/459 done, spent $0.860 total
+[turn2] 200/459 done, spent $0.892 total
+[turn2] 250/459 done, spent $0.947 total
+[turn2] 300/459 done, spent $1.016 total
+[turn2] 350/459 done, spent $1.053 total
+[turn2] 400/459 done, spent $1.062 total
+[turn2] 450/459 done, spent $1.068 total
+[turn2] retrying 31 empty truncated outputs with max_tokens=4000
+[turn2] 459 responses, 455 parsed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/turn2.jsonl
+=== 2026-11-14T21:22:13Z pipeline: validation ===
+[validate] mmlupro-11437 error RuntimeError('Adaption API: gave up after 8 attempts (qwen3.5-397b)')
+[validate] mmlupro-7534 error RuntimeError('Adaption API: gave up after 8 attempts (qwen3.5-397b)')
+[validate] mmlupro-3948 error RuntimeError('Adaption API: gave up after 8 attempts (qwen3.5-397b)')
+[validate] mmlupro-11541 error RuntimeError('Adaption API: gave up after 8 attempts (qwen3.5-397b)')
+[validate] 123 argument ratings from 45 items -> /home/ben/remote-work/ai-epistemics-2026/results/E02/rebuttal_validation.jsonl
+=== 2026-11-14T21:56:13Z pipeline: bandit ===
+[bandit] subject = qwen3.8-27b
+[bandit] train episodes: 15 should-switch, 145 should-hold; held-out items 50
+[bandit] pulls 8/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.75, fresh_solve=0.67, bayesian=0.67, llm_1=0.67, llm_2=0.50, llm_3=0.67
+[bandit] pulls 16/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.67, fresh_solve=0.40, bayesian=0.75, llm_1=0.67, llm_2=0.67, llm_3=0.75
+[bandit] pulls 24/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.57, fresh_solve=0.40, bayesian=0.60, llm_1=0.50, llm_2=0.75, llm_3=0.83
+[bandit] pulls 32/160; posterior means baseline=0.50, firm=0.50, evidence_gate=0.57, fresh_solve=0.50, bayesian=0.60, llm_1=0.50, llm_2=0.83, llm_3=0.89
+[bandit] pulls 40/160; posterior means baseline=0.50, firm=0.67, evidence_gate=0.62, fresh_solve=0.50, bayesian=0.60, llm_1=0.40, llm_2=0.88, llm_3=0.90
+[bandit] pulls 48/160; posterior means baseline=0.50, firm=0.80, evidence_gate=0.62, fresh_solve=0.50, bayesian=0.60, llm_1=0.40, llm_2=0.89, llm_3=0.85
+[bandit] pulls 56/160; posterior means baseline=0.50, firm=0.57, evidence_gate=0.62, fresh_solve=0.50, bayesian=0.60, llm_1=0.40, llm_2=0.71, llm_3=0.86
+[bandit] pulls 64/160; posterior means baseline=0.50, firm=0.67, evidence_gate=0.62, fresh_solve=0.57, bayesian=0.60, llm_1=0.40, llm_2=0.71, llm_3=0.79
+[bandit] pulls 72/160; posterior means baseline=0.50, firm=0.70, evidence_gate=0.62, fresh_solve=0.70, bayesian=0.60, llm_1=0.40, llm_2=0.73, llm_3=0.77
+[bandit] pulls 80/160; posterior means baseline=0.60, firm=0.77, evidence_gate=0.62, fresh_solve=0.70, bayesian=0.67, llm_1=0.40, llm_2=0.73, llm_3=0.74
+[bandit] pulls 88/160; posterior means baseline=0.60, firm=0.81, evidence_gate=0.67, fresh_solve=0.73, bayesian=0.71, llm_1=0.40, llm_2=0.73, llm_3=0.74
+[bandit] pulls 96/160; posterior means baseline=0.60, firm=0.80, evidence_gate=0.64, fresh_solve=0.75, bayesian=0.71, llm_1=0.40, llm_2=0.73, llm_3=0.74
+[bandit] pulls 104/160; posterior means baseline=0.60, firm=0.76, evidence_gate=0.64, fresh_solve=0.80, bayesian=0.71, llm_1=0.40, llm_2=0.75, llm_3=0.75
+[bandit] pulls 112/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.64, fresh_solve=0.81, bayesian=0.70, llm_1=0.40, llm_2=0.75, llm_3=0.75
+[bandit] pulls 120/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.69, fresh_solve=0.83, bayesian=0.67, llm_1=0.40, llm_2=0.76, llm_3=0.76
+[bandit] pulls 128/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.69, fresh_solve=0.87, bayesian=0.67, llm_1=0.40, llm_2=0.76, llm_3=0.77
+[bandit] pulls 136/160; posterior means baseline=0.60, firm=0.70, evidence_gate=0.71, fresh_solve=0.85, bayesian=0.67, llm_1=0.40, llm_2=0.76, llm_3=0.74
+[bandit] pulls 144/160; posterior means baseline=0.67, firm=0.70, evidence_gate=0.73, fresh_solve=0.86, bayesian=0.67, llm_1=0.57, llm_2=0.78, llm_3=0.75
+[bandit] pulls 152/160; posterior means baseline=0.67, firm=0.67, evidence_gate=0.73, fresh_solve=0.88, bayesian=0.67, llm_1=0.57, llm_2=0.79, llm_3=0.76
+[bandit] pulls 160/160; posterior means baseline=0.67, firm=0.67, evidence_gate=0.79, fresh_solve=0.85, bayesian=0.69, llm_1=0.62, llm_2=0.80, llm_3=0.76
+[bandit] best arm: fresh_solve
+[bandit] held-out summary -> /home/ben/remote-work/ai-epistemics-2026/results/E02/bandit_heldout.json
+=== 2026-11-14T22:06:51Z pipeline: turn2 bare cells ===
+[turn2] 376 calls planned
+[turn2] 50/376 done, spent $3.100 total
+[turn2] 100/376 done, spent $3.113 total
+[turn2] 150/376 done, spent $3.124 total
+[turn2] 200/376 done, spent $3.151 total
+[turn2] 250/376 done, spent $3.184 total
+[turn2] 300/376 done, spent $3.194 total
+[turn2] 350/376 done, spent $3.218 total
+[turn2] retrying 42 empty truncated outputs with max_tokens=4000
+[turn2] deepseek-v4-flash mmlupro-11541 R_bare error RuntimeError('Adaption API: gave up after 8 attempts (deepseek-v4-flash)')
+[turn2] deepseek-v4-flash mmlupro-11865 R_bare error RuntimeError('Adaption API: gave up after 8 attempts (deepseek-v4-flash)')
+[turn2] deepseek-v4-flash mmlupro-9218 R_bare error RuntimeError('Adaption API: gave up after 8 attempts (deepseek-v4-flash)')
+[turn2] deepseek-v4-flash mmlupro-9862 R_bare error RuntimeError('Adaption API: gave up after 8 attempts (deepseek-v4-flash)')
+[turn2] deepseek-v4-flash mmlupro-4091 R_bare error RuntimeError('Adaption API: gave up after 8 attempts (deepseek-v4-flash)')
+[turn2] deepseek-v4-flash mmlupro-4640 R_bare error RuntimeError('Adaption API: gave up after 8 attempts (deepseek-v4-flash)')
+[turn2] deepseek-v4-flash mmlupro-3896 R_bare error RuntimeError('Adaption API: gave up after 8 attempts (deepseek-v4-flash)')
+[turn2] 828 responses, 820 parsed -> /home/ben/remote-work/ai-epistemics-2026/results/E02/turn2.jsonl
+=== 2026-11-14T22:52:08Z pipeline: done ===
