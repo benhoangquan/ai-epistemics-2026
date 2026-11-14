@@ -1,0 +1,12 @@
+{
+ "markets_sampled": 700,
+ "search_requests": 4,
+ "market_detail_requests": 700,
+ "bet_page_requests_approx": 1226,
+ "extra_markets_from_smoke_test": 0,
+ "raw_bets": 884556,
+ "truncated_markets": 2,
+ "raw_cache_bytes": 707453461,
+ "note": "search: 3 pages + 1 rejected offset=1500 request; the 3 smoke-test markets were also in the final sample (extra=0); ~4 manual probe requests not counted",
+ "total_requests_approx": 1930
+}

@@ -1,0 +1,80 @@
+{
+ "tag": "main_nocreator",
+ "n_bets_filtered": 519176,
+ "n_claims_all_users": 168228,
+ "n_claims_analysed": 82879,
+ "n_users_analysed": 1851,
+ "n_users_total": 28693,
+ "n_markets": 698,
+ "markets_skipped": {
+  "truncated": 2,
+  "missing": 0,
+  "bad_resolution": 0
+ },
+ "date_range": [
+  "2021-12-29",
+  "2026-11-12"
+ ],
+ "share_claims_correct_direction": 0.5631945366136174,
+ "share_claims_near_certain": 0.08143196708454493,
+ "spearman_nearcertain_vs_accrank_minus_igrank": 0.4192814260686869,
+ "ci": [
+  0.38861102808342424,
+  0.4519637810902924
+ ],
+ "spearman_late_share_vs_accrank_minus_igrank": 0.021503490210536935,
+ "late_ci": [
+  -0.02206049057906626,
+  0.07148604615530424
+ ],
+ "share_claims_late": 0.1263649416619409,
+ "top_acc_decile_n": 187,
+ "top_acc_decile_median_ig_pct": 70.44840626688277,
+ "top_acc_decile_share_below_median_ig": 0.24598930481283424,
+ "high_near_certain_users_n": 190,
+ "high_near_certain_cut": 0.18518518518518517,
+ "high_near_certain_median_acc_pct": 86.42625607779578,
+ "high_near_certain_median_ig_pct": 50.67531064289574,
+ "spearman_acc_vs_ig": 0.3452747235162214,
+ "spearman_brier_vs_ig": 0.10038642070489895,
+ "eb_constants": {
+  "brier": {
+   "mu": -0.19290399037311085,
+   "kappa": 173.03451688667866,
+   "s2w": 0.03804136313008452,
+   "tau2": 0.00021984840836697362
+  },
+  "ig": {
+   "mu": 0.00021224357754636838,
+   "kappa": 168.1714221692178,
+   "s2w": 0.029229803364437007,
+   "tau2": 0.0001738095747030392
+  }
+ },
+ "topic_counts": {
+  "politics": 36039,
+  "ai-tech": 22773,
+  "other": 8664,
+  "econ-finance": 6908,
+  "manifold-personal": 3552,
+  "sports": 2256,
+  "science-health": 1932,
+  "culture": 755
+ },
+ "api_users_n": 38,
+ "api_users_median_pct": {
+  "ACC": 44.74608319827121,
+  "BRIER": 34.089681253376554,
+  "LOG": 29.632631010264724,
+  "DW-ACC": 50.189086980010806,
+  "DW-BRIER": 48.10913019989195,
+  "TOPIC-BRIER": 33.03619665045921,
+  "EB-BRIER": 35.7914640734738,
+  "BSS": 51.701782820097236,
+  "IG": 50.40518638573744,
+  "EB-IG": 50.378173960021606,
+  "EB0-IG": 50.35116153430578,
+  "IG-SUM": 50.297136682874125,
+  "BRIER-GAIN": 51.02647217720151
+ }
+}

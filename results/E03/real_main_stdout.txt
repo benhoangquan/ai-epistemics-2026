@@ -1,0 +1,104 @@
+{
+ "tag": "main",
+ "n_bets_filtered": 528404,
+ "n_claims_all_users": 168701,
+ "n_claims_analysed": 83298,
+ "n_users_analysed": 1855,
+ "n_users_total": 28704,
+ "n_markets": 698,
+ "markets_skipped": {
+  "truncated": 2,
+  "missing": 0,
+  "bad_resolution": 0
+ },
+ "date_range": [
+  "2021-12-28",
+  "2026-11-12"
+ ],
+ "share_claims_correct_direction": 0.5631827895027491,
+ "share_claims_near_certain": 0.08126245528103916,
+ "spearman_nearcertain_vs_accrank_minus_igrank": 0.4163866174217827,
+ "ci": [
+  0.37564887782665773,
+  0.4526886756593121
+ ],
+ "spearman_late_share_vs_accrank_minus_igrank": 0.013500324914187763,
+ "late_ci": [
+  -0.03185201323849203,
+  0.06174256785007714
+ ],
+ "share_claims_late": 0.1260054263007515,
+ "top_acc_decile_n": 186,
+ "top_acc_decile_median_ig_pct": 69.89218328840971,
+ "top_acc_decile_share_below_median_ig": 0.25806451612903225,
+ "high_near_certain_users_n": 188,
+ "high_near_certain_cut": 0.18518518518518517,
+ "high_near_certain_median_acc_pct": 86.54986522911051,
+ "high_near_certain_median_ig_pct": 52.88409703504044,
+ "spearman_acc_vs_ig": 0.3488725564976235,
+ "selection_habit": {
+  "temporal_split_rho_mean_fav_prob": 0.5552209431946942,
+  "ci": [
+   0.5216077221495158,
+   0.5869537269789591
+  ],
+  "spearman_mean_fav_prob_vs_ACC": 0.6960787574670863,
+  "spearman_mean_fav_prob_vs_IG": -0.06166804242463071
+ },
+ "spearman_brier_vs_ig": 0.10281562083493882,
+ "eb_constants": {
+  "brier": {
+   "mu": -0.19309838564989246,
+   "kappa": 168.56869932733065,
+   "s2w": 0.038051969572081845,
+   "tau2": 0.00022573567764316458
+  },
+  "ig": {
+   "mu": -0.00011220631142100335,
+   "kappa": 180.1759553144773,
+   "s2w": 0.030731866849474838,
+   "tau2": 0.00017056586044367434
+  }
+ },
+ "topic_counts": {
+  "politics": 36209,
+  "ai-tech": 22887,
+  "other": 8712,
+  "econ-finance": 6946,
+  "manifold-personal": 3574,
+  "sports": 2270,
+  "science-health": 1940,
+  "culture": 760
+ },
+ "api_users_n": 38,
+ "api_users_median_pct": {
+  "ACC": 44.82479784366576,
+  "BRIER": 34.01617250673854,
+  "LOG": 29.892183288409704,
+  "DW-ACC": 50.269541778975736,
+  "DW-BRIER": 48.3288409703504,
+  "TOPIC-BRIER": 33.099730458221025,
+  "EB-BRIER": 35.92991913746631,
+  "BSS": 52.02156334231806,
+  "IG": 50.700808625336926,
+  "EB-IG": 50.56603773584906,
+  "EB0-IG": 50.646900269541774,
+  "IG-SUM": 50.59299191374663,
+  "BRIER-GAIN": 51.34770889487871
+ }
+}
+       rule  n_users  split_half_random  random_ci_lo  random_ci_hi  split_half_temporal  temporal_ci_lo  temporal_ci_hi
+        ACC     1855              0.351         0.316         0.382                0.318           0.278           0.359
+      BRIER     1855              0.095         0.045         0.117                0.098           0.054           0.144
+        LOG     1855              0.098         0.047         0.123                0.090           0.046           0.135
+     DW-ACC     1855              0.228         0.191         0.254                0.192           0.148           0.235
+   DW-BRIER     1855              0.040        -0.006         0.069                0.057           0.011           0.105
+TOPIC-BRIER     1855              0.088         0.039         0.113                0.090           0.047           0.136
+   EB-BRIER     1855              0.123         0.071         0.144                0.120           0.074           0.167
+        BSS     1855              0.073         0.044         0.118                0.063           0.013           0.112
+         IG     1855              0.072         0.044         0.118                0.065           0.016           0.114
+      EB-IG     1855              0.098         0.070         0.144                0.065           0.015           0.112
+     EB0-IG     1855              0.098         0.070         0.144                0.065           0.015           0.112
+     IG-SUM     1855              0.101         0.072         0.148                0.064           0.013           0.113
+ BRIER-GAIN     1855              0.077         0.049         0.122                0.065           0.017           0.112
+wrote fig2

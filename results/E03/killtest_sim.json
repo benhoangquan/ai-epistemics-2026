@@ -1,0 +1,14 @@
+{
+ "inflated_widely_used": [
+  "ACC",
+  "BRIER"
+ ],
+ "rules_holding_below_median": [
+  "IG",
+  "EB-IG",
+  "EB0-IG",
+  "IG-SUM"
+ ],
+ "signal_present": true,
+ "note": "learned-cheater percentile among 200 honest skilled sources; 95% bootstrap CI over 10 seeds"
+}

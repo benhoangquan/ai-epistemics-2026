@@ -1,0 +1,81 @@
+{
+ "inflated_widely_used": [
+  "ACC",
+  "BRIER"
+ ],
+ "rules_holding_below_median": [
+  "IG",
+  "EB-IG",
+  "EB0-IG",
+  "IG-SUM"
+ ],
+ "signal_present": true,
+ "note": "learned-cheater percentile among 200 honest skilled sources; 95% bootstrap CI over 10 seeds"
+}
+       cond        rule  learned_pct  ci_lo  ci_hi  beat_median_share   best_handcoded  best_handcoded_pct  copy_crowd_pct  skill_rho_main
+       main         ACC        98.85  98.72  98.98               1.00 cherry+extremize               99.11           32.60            0.27
+       main       BRIER        99.80  99.71  99.87               1.00      cherry-pick               99.82           29.52            0.33
+       main         LOG        99.82  99.74  99.88               1.00      cherry-pick               99.76           29.24            0.34
+       main      DW-ACC        98.00  97.50  98.43               0.99 cherry+extremize               98.99           29.64            0.30
+       main    DW-BRIER        99.77  99.64  99.87               1.00      cherry-pick               99.86           24.30            0.40
+       main TOPIC-BRIER        99.76  99.64  99.88               1.00      cherry-pick               99.26           29.32            0.34
+       main    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.92           27.18            0.41
+       main         BSS        69.43  59.93  77.52               0.67   low-vol-gamble               20.24           13.07            0.53
+       main          IG        27.32  23.62  30.88               0.33   low-vol-gamble               17.30           12.34            0.55
+       main       EB-IG        41.17  40.43  41.89               0.15   low-vol-gamble               23.28            8.13            0.62
+       main      EB0-IG        10.84  10.21  11.48               0.00       copy-crowd               12.34           12.34            0.46
+       main      IG-SUM        10.70   9.63  11.71               0.00       copy-crowd               12.34           12.34            0.37
+       main  BRIER-GAIN        19.88  17.38  22.36               0.17   low-vol-gamble               17.31           13.07            0.53
+         R1         ACC        98.88  98.76  99.00               1.00 cherry+extremize               99.07           32.11            0.27
+         R1       BRIER        99.74  99.64  99.82               1.00      cherry-pick               99.75           30.16            0.33
+         R1         LOG        99.78  99.73  99.83               1.00      cherry-pick               99.64           31.61            0.34
+         R1      DW-ACC        98.46  98.13  98.75               1.00 cherry+extremize               98.97           30.04            0.30
+         R1    DW-BRIER        99.78  99.71  99.84               1.00 cherry+extremize               99.81           25.69            0.40
+         R1 TOPIC-BRIER        99.77  99.64  99.87               1.00 cherry+extremize               99.21           29.88            0.34
+         R1    EB-BRIER       100.00 100.00 100.00               1.00 cherry+extremize               99.88           27.85            0.41
+         R1         BSS        73.76  70.48  77.17               0.70   low-vol-gamble               22.96           17.76            0.53
+         R1          IG        28.31  25.54  31.39               0.32   low-vol-gamble               20.88           20.64            0.55
+         R1       EB-IG        43.24  42.38  44.11               0.09   low-vol-gamble               27.41           15.10            0.62
+         R1      EB0-IG        20.33  19.63  20.97               0.00       copy-crowd               20.64           20.64            0.46
+         R1      IG-SUM        20.08  19.46  20.71               0.00       copy-crowd               20.64           20.64            0.37
+         R1  BRIER-GAIN        21.26  18.22  24.46               0.20   low-vol-gamble               20.20           17.76            0.53
+         R2         ACC        99.32  99.23  99.42               1.00 cherry+extremize               99.16           33.68            0.27
+         R2       BRIER        99.92  99.89  99.94               1.00      cherry-pick               99.94           25.94            0.33
+         R2         LOG        99.89  99.81  99.95               1.00      cherry-pick               99.95           24.02            0.34
+         R2      DW-ACC        98.15  97.32  98.78               0.99 cherry+extremize               97.68           31.65            0.30
+         R2    DW-BRIER        99.83  99.76  99.89               1.00      cherry-pick               99.28           22.61            0.40
+         R2 TOPIC-BRIER        99.49  99.22  99.71               1.00      cherry-pick               99.62           25.58            0.34
+         R2    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.96           22.54            0.41
+         R2         BSS        74.46  67.00  81.53               0.73 cherry+extremize               38.31           10.23            0.53
+         R2          IG        40.19  37.11  43.66               0.44   low-vol-gamble               29.38            9.20            0.55
+         R2       EB-IG        42.83  41.36  44.26               0.40   low-vol-gamble               34.31            5.79            0.62
+         R2      EB0-IG        46.02  43.85  47.97               0.37 cherry+extremize               14.66            9.20            0.46
+         R2      IG-SUM        81.88  80.68  83.02               0.99 cherry+extremize               15.64            9.20            0.37
+         R2  BRIER-GAIN        28.06  25.16  31.59               0.28   low-vol-gamble               25.38           10.23            0.53
+         R3         ACC        99.96  99.94  99.98               1.00      cherry-pick               99.96           30.83            0.27
+         R3       BRIER       100.00  99.99 100.00               1.00      cherry-pick              100.00           26.57            0.33
+         R3         LOG       100.00  99.99 100.00               1.00      cherry-pick               99.97           26.07            0.34
+         R3      DW-ACC        99.85  99.75  99.92               1.00      cherry-pick               99.95           27.72            0.30
+         R3    DW-BRIER        99.89  99.68 100.00               1.00      cherry-pick               99.99           21.06            0.40
+         R3 TOPIC-BRIER        99.96  99.92  99.98               1.00      cherry-pick               99.93           26.31            0.34
+         R3    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.91           28.39            0.41
+         R3         BSS        44.69  39.81  48.94               0.41 cherry+extremize               12.42            7.94            0.53
+         R3          IG        11.60  10.18  13.15               0.06       copy-crowd                7.52            7.52            0.55
+         R3       EB-IG        32.26  31.73  32.83               0.00       copy-crowd               10.10           10.10            0.62
+         R3      EB0-IG         6.67   6.13   7.17               0.00       copy-crowd                7.52            7.52            0.46
+         R3      IG-SUM         6.97   6.60   7.33               0.00       copy-crowd                7.52            7.52            0.37
+         R3  BRIER-GAIN         9.74   8.79  10.69               0.04       copy-crowd                7.94            7.94            0.53
+main_strong         ACC        98.76  98.37  99.04               1.00 cherry+extremize               99.11           32.60            0.27
+main_strong       BRIER        99.85  99.80  99.89               1.00      cherry-pick               99.82           29.52            0.33
+main_strong         LOG        99.86  99.76  99.92               1.00      cherry-pick               99.76           29.24            0.34
+main_strong      DW-ACC        98.56  98.01  98.97               1.00 cherry+extremize               98.99           29.64            0.30
+main_strong    DW-BRIER        99.85  99.75  99.92               1.00      cherry-pick               99.86           24.30            0.40
+main_strong TOPIC-BRIER        99.83  99.69  99.92               1.00      cherry-pick               99.26           29.32            0.34
+main_strong    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.92           27.18            0.41
+main_strong         BSS        73.83  69.18  78.36               0.71   low-vol-gamble               20.24           13.07            0.53
+main_strong          IG        25.27  22.10  28.45               0.28   low-vol-gamble               17.30           12.34            0.55
+main_strong       EB-IG        41.97  41.39  42.52               0.11   low-vol-gamble               23.28            8.13            0.62
+main_strong      EB0-IG         9.22   7.49  10.77               0.00       copy-crowd               12.34           12.34            0.46
+main_strong      IG-SUM        10.77   9.97  11.53               0.00       copy-crowd               12.34           12.34            0.37
+main_strong  BRIER-GAIN        19.55  17.48  21.49               0.15   low-vol-gamble               17.31           13.07            0.53
+wrote fig1

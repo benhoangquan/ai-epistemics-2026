@@ -1,0 +1,467 @@
+[main seed 5] done in 23s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=74 IG=34 EB-IG=42 EB0-IG=11 IG-SUM=10
+[main seed 6] done in 23s: ACC=99 BRIER=100 LOG=100 DW-ACC=96 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=47 IG=23 EB-IG=40 EB0-IG=10 IG-SUM=10
+[main seed 7] done in 23s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=70 IG=32 EB-IG=42 EB0-IG=11 IG-SUM=7
+[main seed 9] done in 23s: ACC=98 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=77 IG=23 EB-IG=43 EB0-IG=12 IG-SUM=12
+[main seed 2] done in 23s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=89 IG=21 EB-IG=41 EB0-IG=9 IG-SUM=12
+[main seed 4] done in 23s: ACC=99 BRIER=100 LOG=100 DW-ACC=97 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=69 IG=17 EB-IG=43 EB0-IG=13 IG-SUM=11
+[main seed 1] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=72 IG=30 EB-IG=40 EB0-IG=10 IG-SUM=11
+[main seed 3] done in 36s: ACC=99 BRIER=99 LOG=100 DW-ACC=98 DW-BRIER=99 TOPIC-BRIER=99 EB-BRIER=100 BSS=39 IG=34 EB-IG=39 EB0-IG=10 IG-SUM=10
+[main seed 0] done in 36s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=75 IG=34 EB-IG=40 EB0-IG=11 IG-SUM=10
+[main seed 8] done in 37s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=80 IG=27 EB-IG=41 EB0-IG=11 IG-SUM=13
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_main.json
+[R1 seed 0] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=82 IG=33 EB-IG=43 EB0-IG=19 IG-SUM=21
+[R1 seed 7] done in 24s: ACC=99 BRIER=99 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=73 IG=28 EB-IG=45 EB0-IG=21 IG-SUM=20
+[R1 seed 3] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=69 IG=29 EB-IG=43 EB0-IG=20 IG-SUM=20
+[R1 seed 6] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=72 IG=30 EB-IG=41 EB0-IG=21 IG-SUM=20
+[R1 seed 5] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=81 IG=28 EB-IG=43 EB0-IG=21 IG-SUM=21
+[R1 seed 4] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=73 IG=24 EB-IG=43 EB0-IG=18 IG-SUM=19
+[R1 seed 1] done in 30s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=65 IG=23 EB-IG=45 EB0-IG=22 IG-SUM=19
+[R1 seed 9] done in 31s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=69 IG=28 EB-IG=42 EB0-IG=21 IG-SUM=22
+[R1 seed 2] done in 37s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=79 IG=39 EB-IG=43 EB0-IG=20 IG-SUM=20
+[R1 seed 8] done in 37s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=75 IG=22 EB-IG=45 EB0-IG=19 IG-SUM=19
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_R1.json
+[R2 seed 9] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=84 IG=33 EB-IG=47 EB0-IG=46 IG-SUM=81
+[R2 seed 4] done in 24s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=79 IG=49 EB-IG=41 EB0-IG=49 IG-SUM=85
+[R2 seed 2] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=62 IG=37 EB-IG=38 EB0-IG=48 IG-SUM=84
+[R2 seed 6] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=76 IG=39 EB-IG=45 EB0-IG=47 IG-SUM=79
+[R2 seed 8] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=54 IG=37 EB-IG=44 EB0-IG=46 IG-SUM=84
+[R2 seed 7] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=95 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=94 IG=36 EB-IG=42 EB0-IG=50 IG-SUM=82
+[R2 seed 3] done in 26s: ACC=100 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=70 IG=35 EB-IG=41 EB0-IG=41 IG-SUM=79
+[R2 seed 0] done in 38s: ACC=99 BRIER=100 LOG=100 DW-ACC=97 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=81 IG=50 EB-IG=42 EB0-IG=43 IG-SUM=82
+[R2 seed 5] done in 38s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=84 IG=41 EB-IG=43 EB0-IG=50 IG-SUM=83
+[R2 seed 1] done in 38s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=61 IG=44 EB-IG=44 EB0-IG=40 IG-SUM=81
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_R2.json
+[R3 seed 7] done in 24s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=51 IG=8 EB-IG=32 EB0-IG=7 IG-SUM=7
+[R3 seed 9] done in 24s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=44 IG=11 EB-IG=32 EB0-IG=7 IG-SUM=6
+[R3 seed 2] done in 24s: ACC=100 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=43 IG=10 EB-IG=33 EB0-IG=8 IG-SUM=7
+[R3 seed 3] done in 25s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=52 IG=14 EB-IG=32 EB0-IG=6 IG-SUM=7
+[R3 seed 6] done in 25s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=44 IG=16 EB-IG=32 EB0-IG=8 IG-SUM=6
+[R3 seed 8] done in 25s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=39 IG=9 EB-IG=33 EB0-IG=7 IG-SUM=7
+[R3 seed 5] done in 26s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=49 IG=15 EB-IG=31 EB0-IG=7 IG-SUM=8
+[R3 seed 0] done in 38s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=54 IG=10 EB-IG=33 EB0-IG=5 IG-SUM=6
+[R3 seed 1] done in 38s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=44 IG=11 EB-IG=34 EB0-IG=6 IG-SUM=8
+[R3 seed 4] done in 38s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=99 TOPIC-BRIER=100 EB-BRIER=100 BSS=27 IG=11 EB-IG=31 EB0-IG=6 IG-SUM=7
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_R3.json
+=== rerun with post-hoc BRIER-GAIN rule appended Sat Nov 14 11:35:22 AM EST 2026 ===
+[main seed 5] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=74 IG=34 EB-IG=42 EB0-IG=11 IG-SUM=10 BRIER-GAIN=17
+[main seed 9] done in 25s: ACC=98 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=77 IG=23 EB-IG=43 EB0-IG=12 IG-SUM=12 BRIER-GAIN=22
+[main seed 7] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=70 IG=32 EB-IG=42 EB0-IG=11 IG-SUM=7 BRIER-GAIN=20
+[main seed 2] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=89 IG=21 EB-IG=41 EB0-IG=9 IG-SUM=12 BRIER-GAIN=27
+[main seed 8] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=80 IG=27 EB-IG=41 EB0-IG=11 IG-SUM=13 BRIER-GAIN=16
+[main seed 4] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=97 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=69 IG=17 EB-IG=43 EB0-IG=13 IG-SUM=11 BRIER-GAIN=20
+[main seed 1] done in 26s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=72 IG=30 EB-IG=40 EB0-IG=10 IG-SUM=11 BRIER-GAIN=13
+[main seed 0] done in 40s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=75 IG=34 EB-IG=40 EB0-IG=11 IG-SUM=10 BRIER-GAIN=17
+[main seed 3] done in 40s: ACC=99 BRIER=99 LOG=100 DW-ACC=98 DW-BRIER=99 TOPIC-BRIER=99 EB-BRIER=100 BSS=39 IG=34 EB-IG=39 EB0-IG=10 IG-SUM=10 BRIER-GAIN=21
+[main seed 6] done in 40s: ACC=99 BRIER=100 LOG=100 DW-ACC=96 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=47 IG=23 EB-IG=40 EB0-IG=10 IG-SUM=10 BRIER-GAIN=25
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_main.json
+[R1 seed 5] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=81 IG=28 EB-IG=43 EB0-IG=21 IG-SUM=21 BRIER-GAIN=15
+[R1 seed 4] done in 25s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=73 IG=24 EB-IG=43 EB0-IG=18 IG-SUM=19 BRIER-GAIN=14
+[R1 seed 1] done in 26s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=65 IG=23 EB-IG=45 EB0-IG=22 IG-SUM=19 BRIER-GAIN=21
+[R1 seed 8] done in 26s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=75 IG=22 EB-IG=45 EB0-IG=19 IG-SUM=19 BRIER-GAIN=20
+[R1 seed 7] done in 26s: ACC=99 BRIER=99 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=73 IG=28 EB-IG=45 EB0-IG=21 IG-SUM=20 BRIER-GAIN=31
+[R1 seed 6] done in 26s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=72 IG=30 EB-IG=41 EB0-IG=21 IG-SUM=20 BRIER-GAIN=18
+[R1 seed 2] done in 27s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=79 IG=39 EB-IG=43 EB0-IG=20 IG-SUM=20 BRIER-GAIN=24
+[R1 seed 3] done in 40s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=69 IG=29 EB-IG=43 EB0-IG=20 IG-SUM=20 BRIER-GAIN=26
+[R1 seed 0] done in 40s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=82 IG=33 EB-IG=43 EB0-IG=19 IG-SUM=21 BRIER-GAIN=19
+[R1 seed 9] done in 40s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=69 IG=28 EB-IG=42 EB0-IG=21 IG-SUM=22 BRIER-GAIN=24
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_R1.json
+[R2 seed 4] done in 26s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=79 IG=49 EB-IG=41 EB0-IG=49 IG-SUM=85 BRIER-GAIN=31
+[R2 seed 0] done in 26s: ACC=99 BRIER=100 LOG=100 DW-ACC=97 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=81 IG=50 EB-IG=42 EB0-IG=43 IG-SUM=82 BRIER-GAIN=23
+[R2 seed 7] done in 27s: ACC=99 BRIER=100 LOG=100 DW-ACC=95 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=94 IG=36 EB-IG=42 EB0-IG=50 IG-SUM=82 BRIER-GAIN=27
+[R2 seed 6] done in 27s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=76 IG=39 EB-IG=45 EB0-IG=47 IG-SUM=79 BRIER-GAIN=27
+[R2 seed 5] done in 27s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=84 IG=41 EB-IG=43 EB0-IG=50 IG-SUM=83 BRIER-GAIN=23
+[R2 seed 8] done in 28s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=54 IG=37 EB-IG=44 EB0-IG=46 IG-SUM=84 BRIER-GAIN=30
+[R2 seed 2] done in 34s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=62 IG=37 EB-IG=38 EB0-IG=48 IG-SUM=84 BRIER-GAIN=23
+[R2 seed 9] done in 35s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=84 IG=33 EB-IG=47 EB0-IG=46 IG-SUM=81 BRIER-GAIN=41
+[R2 seed 1] done in 37s: ACC=99 BRIER=100 LOG=100 DW-ACC=98 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=61 IG=44 EB-IG=44 EB0-IG=40 IG-SUM=81 BRIER-GAIN=30
+[R2 seed 3] done in 42s: ACC=100 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=70 IG=35 EB-IG=41 EB0-IG=41 IG-SUM=79 BRIER-GAIN=25
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_R2.json
+[R3 seed 7] done in 26s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=51 IG=8 EB-IG=32 EB0-IG=7 IG-SUM=7 BRIER-GAIN=7
+[R3 seed 9] done in 26s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=44 IG=11 EB-IG=32 EB0-IG=7 IG-SUM=6 BRIER-GAIN=8
+[R3 seed 6] done in 27s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=44 IG=16 EB-IG=32 EB0-IG=8 IG-SUM=6 BRIER-GAIN=11
+[R3 seed 8] done in 27s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=39 IG=9 EB-IG=33 EB0-IG=7 IG-SUM=7 BRIER-GAIN=9
+[R3 seed 1] done in 27s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=44 IG=11 EB-IG=34 EB0-IG=6 IG-SUM=8 BRIER-GAIN=10
+[R3 seed 3] done in 27s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=52 IG=14 EB-IG=32 EB0-IG=6 IG-SUM=7 BRIER-GAIN=12
+[R3 seed 4] done in 27s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=99 TOPIC-BRIER=100 EB-BRIER=100 BSS=27 IG=11 EB-IG=31 EB0-IG=6 IG-SUM=7 BRIER-GAIN=8
+[R3 seed 5] done in 27s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=49 IG=15 EB-IG=31 EB0-IG=7 IG-SUM=8 BRIER-GAIN=11
+[R3 seed 0] done in 41s: ACC=100 BRIER=100 LOG=100 DW-ACC=100 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=54 IG=10 EB-IG=33 EB0-IG=5 IG-SUM=6 BRIER-GAIN=12
+[R3 seed 2] done in 41s: ACC=100 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=43 IG=10 EB-IG=33 EB0-IG=8 IG-SUM=7 BRIER-GAIN=9
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_R3.json
+=== exploratory: main with 4x CEM budget Sat Nov 14 11:40:23 AM EST 2026 ===
+[main strong seed 4] done in 130s: ACC=97 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=72 IG=24 EB-IG=41 EB0-IG=9 IG-SUM=13 BRIER-GAIN=22
+[main strong seed 8] done in 130s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=82 IG=30 EB-IG=42 EB0-IG=8 IG-SUM=11 BRIER-GAIN=13
+[main strong seed 2] done in 131s: ACC=99 BRIER=100 LOG=100 DW-ACC=97 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=65 IG=29 EB-IG=43 EB0-IG=13 IG-SUM=11 BRIER-GAIN=24
+[main strong seed 5] done in 132s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=99 EB-BRIER=100 BSS=80 IG=18 EB-IG=40 EB0-IG=4 IG-SUM=8 BRIER-GAIN=20
+[main strong seed 6] done in 133s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=85 IG=22 EB-IG=42 EB0-IG=11 IG-SUM=9 BRIER-GAIN=23
+[main strong seed 9] done in 136s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=62 IG=19 EB-IG=43 EB0-IG=9 IG-SUM=12 BRIER-GAIN=19
+[main strong seed 7] done in 151s: ACC=98 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=81 IG=33 EB-IG=42 EB0-IG=9 IG-SUM=11 BRIER-GAIN=17
+[main strong seed 3] done in 182s: ACC=99 BRIER=100 LOG=99 DW-ACC=97 DW-BRIER=99 TOPIC-BRIER=100 EB-BRIER=100 BSS=68 IG=26 EB-IG=42 EB0-IG=6 IG-SUM=12 BRIER-GAIN=21
+[main strong seed 1] done in 206s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=73 IG=20 EB-IG=42 EB0-IG=11 IG-SUM=11 BRIER-GAIN=18
+[main strong seed 0] done in 206s: ACC=99 BRIER=100 LOG=100 DW-ACC=99 DW-BRIER=100 TOPIC-BRIER=100 EB-BRIER=100 BSS=71 IG=32 EB-IG=42 EB0-IG=12 IG-SUM=10 BRIER-GAIN=18
+wrote /home/ben/remote-work/ai-epistemics-2026/results/E03/sim_main_strong.json
+=== final analyses Sat Nov 14 04:00:15 PM EST 2026 ===
+{
+ "inflated_widely_used": [
+  "ACC",
+  "BRIER"
+ ],
+ "rules_holding_below_median": [
+  "IG",
+  "EB-IG",
+  "EB0-IG",
+  "IG-SUM"
+ ],
+ "signal_present": true,
+ "note": "learned-cheater percentile among 200 honest skilled sources; 95% bootstrap CI over 10 seeds"
+}
+       cond        rule  learned_pct  ci_lo  ci_hi  beat_median_share   best_handcoded  best_handcoded_pct  copy_crowd_pct  skill_rho_main
+       main         ACC        98.85  98.72  98.98               1.00 cherry+extremize               99.11           32.60            0.27
+       main       BRIER        99.80  99.71  99.87               1.00      cherry-pick               99.82           29.52            0.33
+       main         LOG        99.82  99.74  99.88               1.00      cherry-pick               99.76           29.24            0.34
+       main      DW-ACC        98.00  97.50  98.43               0.99 cherry+extremize               98.99           29.64            0.30
+       main    DW-BRIER        99.77  99.64  99.87               1.00      cherry-pick               99.86           24.30            0.40
+       main TOPIC-BRIER        99.76  99.64  99.88               1.00      cherry-pick               99.26           29.32            0.34
+       main    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.92           27.18            0.41
+       main         BSS        69.43  59.93  77.52               0.67   low-vol-gamble               20.24           13.07            0.53
+       main          IG        27.32  23.62  30.88               0.33   low-vol-gamble               17.30           12.34            0.55
+       main       EB-IG        41.17  40.43  41.89               0.15   low-vol-gamble               23.28            8.13            0.62
+       main      EB0-IG        10.84  10.21  11.48               0.00       copy-crowd               12.34           12.34            0.46
+       main      IG-SUM        10.70   9.63  11.71               0.00       copy-crowd               12.34           12.34            0.37
+       main  BRIER-GAIN        19.88  17.38  22.36               0.17   low-vol-gamble               17.31           13.07            0.53
+         R1         ACC        98.88  98.76  99.00               1.00 cherry+extremize               99.07           32.11            0.27
+         R1       BRIER        99.74  99.64  99.82               1.00      cherry-pick               99.75           30.16            0.33
+         R1         LOG        99.78  99.73  99.83               1.00      cherry-pick               99.64           31.61            0.34
+         R1      DW-ACC        98.46  98.13  98.75               1.00 cherry+extremize               98.97           30.04            0.30
+         R1    DW-BRIER        99.78  99.71  99.84               1.00 cherry+extremize               99.81           25.69            0.40
+         R1 TOPIC-BRIER        99.77  99.64  99.87               1.00 cherry+extremize               99.21           29.88            0.34
+         R1    EB-BRIER       100.00 100.00 100.00               1.00 cherry+extremize               99.88           27.85            0.41
+         R1         BSS        73.76  70.48  77.17               0.70   low-vol-gamble               22.96           17.76            0.53
+         R1          IG        28.31  25.54  31.39               0.32   low-vol-gamble               20.88           20.64            0.55
+         R1       EB-IG        43.24  42.38  44.11               0.09   low-vol-gamble               27.41           15.10            0.62
+         R1      EB0-IG        20.33  19.63  20.97               0.00       copy-crowd               20.64           20.64            0.46
+         R1      IG-SUM        20.08  19.46  20.71               0.00       copy-crowd               20.64           20.64            0.37
+         R1  BRIER-GAIN        21.26  18.22  24.46               0.20   low-vol-gamble               20.20           17.76            0.53
+         R2         ACC        99.32  99.23  99.42               1.00 cherry+extremize               99.16           33.68            0.27
+         R2       BRIER        99.92  99.89  99.94               1.00      cherry-pick               99.94           25.94            0.33
+         R2         LOG        99.89  99.81  99.95               1.00      cherry-pick               99.95           24.02            0.34
+         R2      DW-ACC        98.15  97.32  98.78               0.99 cherry+extremize               97.68           31.65            0.30
+         R2    DW-BRIER        99.83  99.76  99.89               1.00      cherry-pick               99.28           22.61            0.40
+         R2 TOPIC-BRIER        99.49  99.22  99.71               1.00      cherry-pick               99.62           25.58            0.34
+         R2    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.96           22.54            0.41
+         R2         BSS        74.46  67.00  81.53               0.73 cherry+extremize               38.31           10.23            0.53
+         R2          IG        40.19  37.11  43.66               0.44   low-vol-gamble               29.38            9.20            0.55
+         R2       EB-IG        42.83  41.36  44.26               0.40   low-vol-gamble               34.31            5.79            0.62
+         R2      EB0-IG        46.02  43.85  47.97               0.37 cherry+extremize               14.66            9.20            0.46
+         R2      IG-SUM        81.88  80.68  83.02               0.99 cherry+extremize               15.64            9.20            0.37
+         R2  BRIER-GAIN        28.06  25.16  31.59               0.28   low-vol-gamble               25.38           10.23            0.53
+         R3         ACC        99.96  99.94  99.98               1.00      cherry-pick               99.96           30.83            0.27
+         R3       BRIER       100.00  99.99 100.00               1.00      cherry-pick              100.00           26.57            0.33
+         R3         LOG       100.00  99.99 100.00               1.00      cherry-pick               99.97           26.07            0.34
+         R3      DW-ACC        99.85  99.75  99.92               1.00      cherry-pick               99.95           27.72            0.30
+         R3    DW-BRIER        99.89  99.68 100.00               1.00      cherry-pick               99.99           21.06            0.40
+         R3 TOPIC-BRIER        99.96  99.92  99.98               1.00      cherry-pick               99.93           26.31            0.34
+         R3    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.91           28.39            0.41
+         R3         BSS        44.69  39.81  48.94               0.41 cherry+extremize               12.42            7.94            0.53
+         R3          IG        11.60  10.18  13.15               0.06       copy-crowd                7.52            7.52            0.55
+         R3       EB-IG        32.26  31.73  32.83               0.00       copy-crowd               10.10           10.10            0.62
+         R3      EB0-IG         6.67   6.13   7.17               0.00       copy-crowd                7.52            7.52            0.46
+         R3      IG-SUM         6.97   6.60   7.33               0.00       copy-crowd                7.52            7.52            0.37
+         R3  BRIER-GAIN         9.74   8.79  10.69               0.04       copy-crowd                7.94            7.94            0.53
+main_strong         ACC        98.76  98.37  99.04               1.00 cherry+extremize               99.11           32.60            0.27
+main_strong       BRIER        99.85  99.80  99.89               1.00      cherry-pick               99.82           29.52            0.33
+main_strong         LOG        99.86  99.76  99.92               1.00      cherry-pick               99.76           29.24            0.34
+main_strong      DW-ACC        98.56  98.01  98.97               1.00 cherry+extremize               98.99           29.64            0.30
+main_strong    DW-BRIER        99.85  99.75  99.92               1.00      cherry-pick               99.86           24.30            0.40
+main_strong TOPIC-BRIER        99.83  99.69  99.92               1.00      cherry-pick               99.26           29.32            0.34
+main_strong    EB-BRIER       100.00 100.00 100.00               1.00      cherry-pick               99.92           27.18            0.41
+main_strong         BSS        73.83  69.18  78.36               0.71   low-vol-gamble               20.24           13.07            0.53
+main_strong          IG        25.27  22.10  28.45               0.28   low-vol-gamble               17.30           12.34            0.55
+main_strong       EB-IG        41.97  41.39  42.52               0.11   low-vol-gamble               23.28            8.13            0.62
+main_strong      EB0-IG         9.22   7.49  10.77               0.00       copy-crowd               12.34           12.34            0.46
+main_strong      IG-SUM        10.77   9.97  11.53               0.00       copy-crowd               12.34           12.34            0.37
+main_strong  BRIER-GAIN        19.55  17.48  21.49               0.15   low-vol-gamble               17.31           13.07            0.53
+wrote fig1
+{
+ "tag": "main",
+ "n_bets_filtered": 528404,
+ "n_claims_all_users": 168701,
+ "n_claims_analysed": 83298,
+ "n_users_analysed": 1855,
+ "n_users_total": 28704,
+ "n_markets": 698,
+ "markets_skipped": {
+  "truncated": 2,
+  "missing": 0,
+  "bad_resolution": 0
+ },
+ "date_range": [
+  "2021-12-28",
+  "2026-11-12"
+ ],
+ "share_claims_correct_direction": 0.5631827895027491,
+ "share_claims_near_certain": 0.08126245528103916,
+ "spearman_nearcertain_vs_accrank_minus_igrank": 0.4163866174217827,
+ "ci": [
+  0.37564887782665773,
+  0.4526886756593121
+ ],
+ "spearman_late_share_vs_accrank_minus_igrank": 0.013500324914187763,
+ "late_ci": [
+  -0.03185201323849203,
+  0.06174256785007714
+ ],
+ "share_claims_late": 0.1260054263007515,
+ "top_acc_decile_n": 186,
+ "top_acc_decile_median_ig_pct": 69.89218328840971,
+ "top_acc_decile_share_below_median_ig": 0.25806451612903225,
+ "high_near_certain_users_n": 188,
+ "high_near_certain_cut": 0.18518518518518517,
+ "high_near_certain_median_acc_pct": 86.54986522911051,
+ "high_near_certain_median_ig_pct": 52.88409703504044,
+ "spearman_acc_vs_ig": 0.3488725564976235,
+ "spearman_brier_vs_ig": 0.10281562083493882,
+ "eb_constants": {
+  "brier": {
+   "mu": -0.19309838564989246,
+   "kappa": 168.56869932733065,
+   "s2w": 0.038051969572081845,
+   "tau2": 0.00022573567764316458
+  },
+  "ig": {
+   "mu": -0.00011220631142100335,
+   "kappa": 180.1759553144773,
+   "s2w": 0.030731866849474838,
+   "tau2": 0.00017056586044367434
+  }
+ },
+ "topic_counts": {
+  "politics": 36209,
+  "ai-tech": 22887,
+  "other": 8712,
+  "econ-finance": 6946,
+  "manifold-personal": 3574,
+  "sports": 2270,
+  "science-health": 1940,
+  "culture": 760
+ },
+ "api_users_n": 38,
+ "api_users_median_pct": {
+  "ACC": 44.82479784366576,
+  "BRIER": 34.01617250673854,
+  "LOG": 29.892183288409704,
+  "DW-ACC": 50.269541778975736,
+  "DW-BRIER": 48.3288409703504,
+  "TOPIC-BRIER": 33.099730458221025,
+  "EB-BRIER": 35.92991913746631,
+  "BSS": 52.02156334231806,
+  "IG": 50.700808625336926,
+  "EB-IG": 50.56603773584906,
+  "EB0-IG": 50.646900269541774,
+  "IG-SUM": 50.59299191374663,
+  "BRIER-GAIN": 51.34770889487871
+ }
+}
+       rule  n_users  split_half_random  random_ci_lo  random_ci_hi  split_half_temporal  temporal_ci_lo  temporal_ci_hi
+        ACC     1855              0.351         0.316         0.382                0.318           0.278           0.359
+      BRIER     1855              0.095         0.045         0.117                0.098           0.054           0.144
+        LOG     1855              0.098         0.047         0.123                0.090           0.046           0.135
+     DW-ACC     1855              0.228         0.191         0.254                0.192           0.148           0.235
+   DW-BRIER     1855              0.040        -0.006         0.069                0.057           0.011           0.105
+TOPIC-BRIER     1855              0.088         0.039         0.113                0.090           0.047           0.136
+   EB-BRIER     1855              0.123         0.071         0.144                0.120           0.074           0.167
+        BSS     1855              0.073         0.044         0.118                0.063           0.013           0.112
+         IG     1855              0.072         0.044         0.118                0.065           0.016           0.114
+      EB-IG     1855              0.098         0.070         0.144                0.065           0.015           0.112
+     EB0-IG     1855              0.098         0.070         0.144                0.065           0.015           0.112
+     IG-SUM     1855              0.101         0.072         0.148                0.064           0.013           0.113
+ BRIER-GAIN     1855              0.077         0.049         0.122                0.065           0.017           0.112
+wrote fig2
+{
+ "tag": "main_allbuys",
+ "n_bets_filtered": 528404,
+ "n_claims_all_users": 528404,
+ "n_claims_analysed": 438615,
+ "n_users_analysed": 3428,
+ "n_users_total": 28704,
+ "n_markets": 698,
+ "markets_skipped": {
+  "truncated": 2,
+  "missing": 0,
+  "bad_resolution": 0
+ },
+ "date_range": [
+  "2021-12-28",
+  "2026-11-12"
+ ],
+ "share_claims_correct_direction": 0.5679741914891192,
+ "share_claims_near_certain": 0.0917934863148775,
+ "spearman_nearcertain_vs_accrank_minus_igrank": 0.39458407549941876,
+ "ci": [
+  0.3655051260412833,
+  0.42589863437433273
+ ],
+ "spearman_late_share_vs_accrank_minus_igrank": -0.005925381873678093,
+ "late_ci": [
+  -0.03943095895122473,
+  0.02591388695183459
+ ],
+ "share_claims_late": 0.19251507586379854,
+ "top_acc_decile_n": 345,
+ "top_acc_decile_median_ig_pct": 77.45040840140022,
+ "top_acc_decile_share_below_median_ig": 0.15942028985507245,
+ "high_near_certain_users_n": 343,
+ "high_near_certain_cut": 0.23279069767441873,
+ "high_near_certain_median_acc_pct": 83.88273045507584,
+ "high_near_certain_median_ig_pct": 51.77946324387398,
+ "spearman_acc_vs_ig": 0.5299504335392585,
+ "spearman_brier_vs_ig": 0.08183725394536838,
+ "eb_constants": {
+  "brier": {
+   "mu": -0.1819648116921257,
+   "kappa": 8.526850972060764,
+   "s2w": 0.03411630679222359,
+   "tau2": 0.004001044102214253
+  },
+  "ig": {
+   "mu": 0.0006334996799927985,
+   "kappa": 16.023511837503534,
+   "s2w": 0.023543201929106153,
+   "tau2": 0.0014692910123486505
+  }
+ },
+ "topic_counts": {
+  "politics": 178867,
+  "ai-tech": 112853,
+  "econ-finance": 44530,
+  "other": 36272,
+  "manifold-personal": 33885,
+  "sports": 16006,
+  "science-health": 10415,
+  "culture": 5787
+ },
+ "api_users_n": 107,
+ "api_users_median_pct": {
+  "ACC": 41.890315052508754,
+  "BRIER": 63.010501750291716,
+  "LOG": 61.84364060676779,
+  "DW-ACC": 49.241540256709456,
+  "DW-BRIER": 64.5565927654609,
+  "TOPIC-BRIER": 60.93932322053676,
+  "EB-BRIER": 64.46907817969661,
+  "BSS": 49.970828471411906,
+  "IG": 49.64994165694282,
+  "EB-IG": 49.53325554259043,
+  "EB0-IG": 50.0,
+  "IG-SUM": 52.04200700116686,
+  "BRIER-GAIN": 49.91248541423571
+ }
+}
+       rule  n_users  split_half_random  random_ci_lo  random_ci_hi  split_half_temporal  temporal_ci_lo  temporal_ci_hi
+        ACC     3428              0.729         0.716         0.747                0.451           0.419           0.484
+      BRIER     3428              0.614         0.599         0.634                0.261           0.226           0.291
+        LOG     3428              0.612         0.593         0.631                0.259           0.222           0.291
+     DW-ACC     3428              0.675         0.660         0.694                0.380           0.350           0.413
+   DW-BRIER     3428              0.577         0.562         0.599                0.227           0.199           0.256
+TOPIC-BRIER     3428              0.614         0.598         0.634                0.261           0.224           0.290
+   EB-BRIER     3428              0.639         0.626         0.658                0.266           0.232           0.296
+        BSS     3428              0.447         0.426         0.474                0.198           0.162           0.233
+         IG     3428              0.459         0.437         0.487                0.208           0.175           0.242
+      EB-IG     3428              0.477         0.455         0.500                0.205           0.172           0.239
+     EB0-IG     3428              0.477         0.456         0.501                0.206           0.173           0.240
+     IG-SUM     3428              0.505         0.485         0.532                0.197           0.160           0.232
+ BRIER-GAIN     3428              0.450         0.431         0.478                0.202           0.169           0.234
+{
+ "tag": "main_nocreator",
+ "n_bets_filtered": 519176,
+ "n_claims_all_users": 168228,
+ "n_claims_analysed": 82879,
+ "n_users_analysed": 1851,
+ "n_users_total": 28693,
+ "n_markets": 698,
+ "markets_skipped": {
+  "truncated": 2,
+  "missing": 0,
+  "bad_resolution": 0
+ },
+ "date_range": [
+  "2021-12-29",
+  "2026-11-12"
+ ],
+ "share_claims_correct_direction": 0.5631945366136174,
+ "share_claims_near_certain": 0.08143196708454493,
+ "spearman_nearcertain_vs_accrank_minus_igrank": 0.4192814260686869,
+ "ci": [
+  0.38861102808342424,
+  0.4519637810902924
+ ],
+ "spearman_late_share_vs_accrank_minus_igrank": 0.021503490210536935,
+ "late_ci": [
+  -0.02206049057906626,
+  0.07148604615530424
+ ],
+ "share_claims_late": 0.1263649416619409,
+ "top_acc_decile_n": 187,
+ "top_acc_decile_median_ig_pct": 70.44840626688277,
+ "top_acc_decile_share_below_median_ig": 0.24598930481283424,
+ "high_near_certain_users_n": 190,
+ "high_near_certain_cut": 0.18518518518518517,
+ "high_near_certain_median_acc_pct": 86.42625607779578,
+ "high_near_certain_median_ig_pct": 50.67531064289574,
+ "spearman_acc_vs_ig": 0.3452747235162214,
+ "spearman_brier_vs_ig": 0.10038642070489895,
+ "eb_constants": {
+  "brier": {
+   "mu": -0.19290399037311085,
+   "kappa": 173.03451688667866,
+   "s2w": 0.03804136313008452,
+   "tau2": 0.00021984840836697362
+  },
+  "ig": {
+   "mu": 0.00021224357754636838,
+   "kappa": 168.1714221692178,
+   "s2w": 0.029229803364437007,
+   "tau2": 0.0001738095747030392
+  }
+ },
+ "topic_counts": {
+  "politics": 36039,
+  "ai-tech": 22773,
+  "other": 8664,
+  "econ-finance": 6908,
+  "manifold-personal": 3552,
+  "sports": 2256,
+  "science-health": 1932,
+  "culture": 755
+ },
+ "api_users_n": 38,
+ "api_users_median_pct": {
+  "ACC": 44.74608319827121,
+  "BRIER": 34.089681253376554,
+  "LOG": 29.632631010264724,
+  "DW-ACC": 50.189086980010806,
+  "DW-BRIER": 48.10913019989195,
+  "TOPIC-BRIER": 33.03619665045921,
+  "EB-BRIER": 35.7914640734738,
+  "BSS": 51.701782820097236,
+  "IG": 50.40518638573744,
+  "EB-IG": 50.378173960021606,
+  "EB0-IG": 50.35116153430578,
+  "IG-SUM": 50.297136682874125,
+  "BRIER-GAIN": 51.02647217720151
+ }
+}
+       rule  n_users  split_half_random  random_ci_lo  random_ci_hi  split_half_temporal  temporal_ci_lo  temporal_ci_hi
+        ACC     1851              0.343         0.314         0.371                0.318           0.280           0.359
+      BRIER     1851              0.098         0.068         0.139                0.098           0.050           0.137
+        LOG     1851              0.099         0.070         0.139                0.090           0.045           0.130
+     DW-ACC     1851              0.219         0.184         0.250                0.189           0.141           0.236
+   DW-BRIER     1851              0.044         0.015         0.083                0.060           0.011           0.106
+TOPIC-BRIER     1851              0.090         0.062         0.131                0.091           0.044           0.133
+   EB-BRIER     1851              0.129         0.099         0.173                0.120           0.069           0.160
+        BSS     1851              0.074         0.039         0.106                0.057           0.011           0.100
+         IG     1851              0.071         0.043         0.108                0.060           0.016           0.099
+      EB-IG     1851              0.096         0.064         0.131                0.063           0.019           0.102
+     EB0-IG     1851              0.096         0.064         0.131                0.063           0.019           0.102
+     IG-SUM     1851              0.099         0.066         0.134                0.063           0.019           0.103
+ BRIER-GAIN     1851              0.077         0.043         0.107                0.059           0.014           0.099
+ALLDONE

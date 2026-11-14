@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 .env
 .epi/
+# raw API caches (large; Manifold raw cache holds unhashed user ids)
+results/*/data/
