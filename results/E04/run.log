@@ -104,3 +104,189 @@ search: done. best=third_person; transfer drafts 44
 [mirror-qwen3.8-27b] 141 jobs, 141 fresh calls, $0.1879, 0 errors
 mirror: 564 rows, 4 unparsed
 PIPE_DONE
+=== v2 stage gen2 ===
+=== v2 stage gen2 ===
+[E04:gen2] 50/57 done, spent $4.810 total
+[gen2] 57 jobs, 57 fresh calls, $0.0122, 0 errors
+gen2 failed roommates-13
+gen2 failed roommates-14
+gen2 failed family-13
+gen2: 54 new scenarios
+STAGE_DONE gen2 13:47:39
+=== v2 stage render2 ===
+[E04:render2] 50/306 done, spent $4.821 total
+[E04:render2] 100/306 done, spent $4.828 total
+[E04:render2] 150/306 done, spent $4.843 total
+[E04:render2] 200/306 done, spent $4.850 total
+[E04:render2] 250/306 done, spent $4.867 total
+[E04:render2] 300/306 done, spent $4.882 total
+[render2] 306 jobs, 305 fresh calls, $0.0554, 0 errors
+=== v2 stage render2 ===
+[E04:render2] 50/306 done, spent $4.909 total
+[E04:render2] 100/306 done, spent $4.909 total
+[E04:render2] 150/306 done, spent $4.909 total
+[E04:render2] 200/306 done, spent $4.909 total
+[E04:render2] 250/306 done, spent $4.909 total
+[E04:render2] 300/306 done, spent $4.909 total
+[render2] 306 jobs, 0 fresh calls, $0.0000, 0 errors
+render2: 9 first-pass texts empty/truncated; retrying with sample=1, max_tokens=1500
+[render2-retry] 9 jobs, 9 fresh calls, $0.0040, 0 errors
+render2: 97 complete scenarios of 102
+STAGE_DONE render2 14:07:13
+=== v2 stage verify2 ===
+[E04:verify-before] 50/94 done, spent $4.931 total
+[verify-before] 94 jobs, 94 fresh calls, $0.0211, 0 errors
+[E04:verify-pass1] 50/194 done, spent $4.961 total
+[E04:verify-pass1] 100/194 done, spent $4.976 total
+[E04:verify-pass1] 150/194 done, spent $4.990 total
+[verify-pass1] 194 jobs, 194 fresh calls, $0.0368, 0 errors
+[E04:regen] 50/186 done, spent $5.014 total
+[E04:regen] 100/186 done, spent $5.023 total
+[E04:regen] 150/186 done, spent $5.032 total
+[regen] 186 jobs, 186 fresh calls, $0.0220, 0 errors
+[E04:verify-regen] 50/186 done, spent $5.052 total
+[E04:verify-regen] 100/186 done, spent $5.067 total
+[E04:verify-regen] 150/186 done, spent $5.078 total
+[verify-regen] 186 jobs, 186 fresh calls, $0.0340, 0 errors
+verify2: 97 final scenarios; flagged pass1 186; regen ok 186
+STAGE_DONE verify2 14:24:17
+=== v2 stage balance2 ===
+[E04:balance2] 50/97 done, spent $5.100 total
+=== v2 stage verify3 ===
+Traceback (most recent call last):
+  File "/home/ben/remote-work/ai-epistemics-2026/experiments/E04_mirror_test/v2.py", line 319, in <module>
+    else: globals()[f"stage_{a.stage}"]()
+          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'stage_verify3'
+STAGE_DONE verify3 14:26:49
+=== v2 stage balance2 ===
+[E04:balance2] 50/97 done, spent $5.110 total
+[balance2] 97 jobs, 29 fresh calls, $0.0036, 0 errors
+=== v2 stage verify3 ===
+[v3-before] 47 jobs, 47 fresh calls, $0.0123, 0 errors
+[E04:v3-pass1] 50/97 done, spent $5.139 total
+[v3-pass1] 97 jobs, 97 fresh calls, $0.0170, 0 errors
+[v3-regen] 38 jobs, 38 fresh calls, $0.0042, 0 errors
+[v3-reverify] 29 jobs, 29 fresh calls, $0.0047, 0 errors
+verify3: 97 scenarios; regen attempted for 38 tellings
+STAGE_DONE verify3 14:32:33
+=== v2 stage draft2 ===
+[E04:draft2-gemma-4-31b-it-me] 50/180 done, spent $5.162 total
+[E04:draft2-gemma-4-31b-it-me] 100/180 done, spent $5.167 total
+[E04:draft2-gemma-4-31b-it-me] 150/180 done, spent $5.173 total
+[draft2-gemma-4-31b-it-me] 180 jobs, 180 fresh calls, $0.0198, 0 errors
+[draft2-retry-gemma-4-31b-it] 2 jobs, 2 fresh calls, $0.0007, 0 errors
+[draft2-gemma-4-31b-it-mediator] 32 jobs, 32 fresh calls, $0.0025, 0 errors
+[draft2-gemma-4-31b-it-single] 48 jobs, 48 fresh calls, $0.0027, 0 errors
+[E04:draft2-glm-5.3-flash-me] 50/180 done, spent $5.195 total
+[E04:draft2-glm-5.3-flash-me] 100/180 done, spent $5.208 total
+[E04:draft2-glm-5.3-flash-me] 150/180 done, spent $5.220 total
+[draft2-glm-5.3-flash-me] 180 jobs, 180 fresh calls, $0.0453, 0 errors
+[draft2-glm-5.3-flash-mediator] 32 jobs, 32 fresh calls, $0.0094, 0 errors
+[E04:draft2-gemma-4-26b-a4b-it-me] 50/180 done, spent $5.241 total
+[E04:draft2-gemma-4-26b-a4b-it-me] 100/180 done, spent $5.245 total
+[E04:draft2-gemma-4-26b-a4b-it-me] 150/180 done, spent $5.249 total
+[draft2-gemma-4-26b-a4b-it-me] 180 jobs, 180 fresh calls, $0.0150, 0 errors
+[draft2-gemma-4-26b-a4b-it-mediator] 32 jobs, 32 fresh calls, $0.0027, 0 errors
+[E04:draft2-qwen3.8-27b-me] 50/180 done, spent $5.354 total
+[E04:draft2-qwen3.8-27b-me] 100/180 done, spent $5.431 total
+[E04:draft2-qwen3.8-27b-me] 150/180 done, spent $5.521 total
+[draft2-qwen3.8-27b-me] 180 jobs, 180 fresh calls, $0.3074, 0 errors
+[draft2-retry-qwen3.8-27b] 1 jobs, 1 fresh calls, $0.0019, 0 errors
+[draft2-qwen3.8-27b-mediator] 32 jobs, 32 fresh calls, $0.0675, 0 errors
+[draft2-retry-qwen3.8-27b] 3 jobs, 3 fresh calls, $0.0102, 0 errors
+draft2: 896 drafts, 1 empty
+STAGE_DONE draft2 14:57:32
+=== v2 stage judge2 ===
+[E04:judge-gemma-4-31b-it] 50/895 done, spent $5.647 total
+[E04:judge-gemma-4-31b-it] 100/895 done, spent $5.651 total
+[E04:judge-gemma-4-31b-it] 150/895 done, spent $5.656 total
+[E04:judge-gemma-4-31b-it] 200/895 done, spent $5.661 total
+[E04:judge-gemma-4-31b-it] 250/895 done, spent $5.665 total
+[E04:judge-gemma-4-31b-it] 300/895 done, spent $5.671 total
+[E04:judge-gemma-4-31b-it] 350/895 done, spent $5.676 total
+[E04:judge-gemma-4-31b-it] 400/895 done, spent $5.681 total
+[E04:judge-gemma-4-31b-it] 450/895 done, spent $5.687 total
+[E04:judge-gemma-4-31b-it] 500/895 done, spent $5.692 total
+[E04:judge-gemma-4-31b-it] 550/895 done, spent $5.696 total
+[E04:judge-gemma-4-31b-it] 600/895 done, spent $5.701 total
+[E04:judge-gemma-4-31b-it] 650/895 done, spent $5.705 total
+[E04:judge-gemma-4-31b-it] 700/895 done, spent $5.710 total
+[E04:judge-gemma-4-31b-it] 750/895 done, spent $5.715 total
+[E04:judge-gemma-4-31b-it] 800/895 done, spent $5.720 total
+[E04:judge-gemma-4-31b-it] 850/895 done, spent $5.725 total
+[judge-gemma-4-31b-it] 895 jobs, 895 fresh calls, $0.0882, 0 errors
+[judge-retry-gemma-4-31b-it] 14 jobs, 14 fresh calls, $0.0077, 0 errors
+judge gemma-4-31b-it: 895 rows, 13 unrated
+STAGE_DONE judge2 15:18:33
+v2b: extraction {'header': 34, 'last_hr': 8, 'unextracted': 2}
+[v2b-deepseek-v4-flash] 42 jobs, 38 fresh calls, $0.0069, 4 errors
+   error: RuntimeError: Adaption API: gave up after 8 attempts (deepseek-v4-flash)
+   error: RuntimeError: Adaption API: gave up after 8 attempts (deepseek-v4-flash)
+   error: RuntimeError: Adaption API: gave up after 8 attempts (deepseek-v4-flash)
+[v2b-gemma-4-31b-it] 42 jobs, 42 fresh calls, $0.0042, 0 errors
+[v2b-baseline-gemma] 44 jobs, 44 fresh calls, $0.0049, 0 errors
+STAGE_DONE v2b 15:29:26
+=== v2 stage judge1 ===
+[E04:judge-deepseek-v4-flash] 50/536 done, spent $5.759 total
+[E04:judge-deepseek-v4-flash] 100/536 done, spent $5.767 total
+[E04:judge-deepseek-v4-flash] 150/536 done, spent $5.772 total
+[E04:judge-deepseek-v4-flash] 200/536 done, spent $5.779 total
+[E04:judge-deepseek-v4-flash] 250/536 done, spent $5.787 total
+[E04:judge-deepseek-v4-flash] 300/536 done, spent $5.795 total
+[E04:judge-deepseek-v4-flash] 350/536 done, spent $5.801 total
+[E04:judge-deepseek-v4-flash] 400/536 done, spent $5.808 total
+[E04:judge-deepseek-v4-flash] 450/536 done, spent $5.817 total
+[E04:judge-deepseek-v4-flash] 500/536 done, spent $5.828 total
+[judge-deepseek-v4-flash] 536 jobs, 536 fresh calls, $0.0806, 0 errors
+[judge-retry-deepseek-v4-flash] 17 jobs, 17 fresh calls, $0.0052, 0 errors
+judge deepseek-v4-flash: 536 rows, 0 unrated
+STAGE_DONE judge1 15:46:34
+PIPE3_DONE
+=== v3 stage esc ===
+[esc-turn1] 28 jobs, 28 fresh calls, $0.0257, 0 errors
+[E04:esc-turn2] 50/120 done, spent $5.922 total
+[E04:esc-turn2] 100/120 done, spent $5.970 total
+[esc-turn2] 120 jobs, 120 fresh calls, $0.1310, 0 errors
+esc turn 2: 120 live chains
+[E04:esc-turn3] 50/120 done, spent $6.040 total
+[E04:esc-turn3] 100/120 done, spent $6.077 total
+[esc-turn3] 120 jobs, 120 fresh calls, $0.0986, 0 errors
+esc turn 3: 120 live chains
+[E04:esc-turn4] 50/120 done, spent $6.132 total
+[E04:esc-turn4] 100/120 done, spent $6.163 total
+[esc-turn4] 120 jobs, 120 fresh calls, $0.0802, 0 errors
+esc turn 4: 120 live chains
+esc: 120 chains, 118 complete
+[E04:esc-judge] 50/478 done, spent $6.183 total
+[E04:esc-judge] 100/478 done, spent $6.191 total
+[E04:esc-judge] 150/478 done, spent $6.199 total
+[E04:esc-judge] 200/478 done, spent $6.208 total
+[E04:esc-judge] 250/478 done, spent $6.216 total
+[E04:esc-judge] 300/478 done, spent $6.224 total
+[E04:esc-judge] 350/478 done, spent $6.232 total
+[E04:esc-judge] 400/478 done, spent $6.241 total
+[E04:esc-judge] 450/478 done, spent $6.248 total
+[esc-judge] 478 jobs, 478 fresh calls, $0.0789, 0 errors
+esc judge: 478 rows, 0 unrated
+STAGE_DONE v3 esc 16:12:02
+=== v3 stage verdict ===
+[E04:verdict-gemma-4-31b-it] 50/80 done, spent $6.256 total
+[verdict-gemma-4-31b-it] 80 jobs, 80 fresh calls, $0.0055, 0 errors
+[retry-gemma-4-31b-it] 2 jobs, 2 fresh calls, $0.0005, 0 errors
+[E04:verdict-glm-5.3-flash] 50/80 done, spent $6.267 total
+[verdict-glm-5.3-flash] 80 jobs, 80 fresh calls, $0.0118, 0 errors
+[E04:verdict-gemma-4-26b-a4b-it] 50/80 done, spent $6.274 total
+[verdict-gemma-4-26b-a4b-it] 80 jobs, 80 fresh calls, $0.0044, 0 errors
+[E04:verdict-qwen3.8-27b] 50/80 done, spent $6.347 total
+[verdict-qwen3.8-27b] 80 jobs, 80 fresh calls, $0.1086, 0 errors
+verdict v3: 320 rows, 1 unparsed
+STAGE_DONE v3 verdict 16:20:27
+=== v3 stage voice ===
+[E04:voice] 50/200 done, spent $6.387 total
+[E04:voice] 100/200 done, spent $6.391 total
+[E04:voice] 150/200 done, spent $6.394 total
+[E04:voice] 200/200 done, spent $6.398 total
+[voice] 200 jobs, 200 fresh calls, $0.0138, 0 errors
+STAGE_DONE v3 voice 16:24:36
+PIPE4_DONE

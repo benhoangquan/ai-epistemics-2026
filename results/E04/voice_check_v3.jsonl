@@ -1,0 +1,200 @@
+{"id": "roommates-11", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Leo", "judged_writer": "Leo"}
+{"id": "landlord-tenant-11", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Mrs. Gable", "judged_writer": "Mrs. Gable"}
+{"id": "landlord-tenant-10", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "ex-partners-15", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "family-10", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "family-04", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Mark", "judged_writer": "Linda"}
+{"id": "landlord-tenant-16", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "neighbors-11", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "family-02", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Karen", "judged_writer": "Karen"}
+{"id": "neighbors-16", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Marcus", "judged_writer": "unclear"}
+{"id": "roommates-03", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Sam", "judged_writer": "Sam"}
+{"id": "family-15", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Robert", "judged_writer": "Robert"}
+{"id": "family-03", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marta", "judged_writer": "Marta"}
+{"id": "employer-employee-16", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Elena Vance", "judged_writer": "Elena Vance"}
+{"id": "landlord-tenant-04", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "family-14", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Julian", "judged_writer": "Julian"}
+{"id": "neighbors-11", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "unclear"}
+{"id": "ex-partners-03", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "family-06", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "neighbors-13", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "neighbors-05", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "roommates-16", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "landlord-tenant-14", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "family-15", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Robert", "judged_writer": "Robert"}
+{"id": "neighbors-04", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "employer-employee-10", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "employer-employee-05", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "roommates-04", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "landlord-tenant-03", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "ex-partners-02", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Mark", "judged_writer": "Lena"}
+{"id": "landlord-tenant-01", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "David Ross", "judged_writer": "David Ross"}
+{"id": "neighbors-01", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "employer-employee-03", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Jamie", "judged_writer": "Jamie"}
+{"id": "employer-employee-02", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "family-15", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Elena", "judged_writer": "unclear"}
+{"id": "ex-partners-13", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "landlord-tenant-14", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "employer-employee-07", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Bob", "judged_writer": "Bob"}
+{"id": "roommates-10", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "employer-employee-14", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "ex-partners-02", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Mark", "judged_writer": "Mark"}
+{"id": "family-11", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Julian", "judged_writer": "Julian"}
+{"id": "neighbors-13", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "ex-partners-01", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Emma", "judged_writer": "unclear"}
+{"id": "employer-employee-05", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Casey", "judged_writer": "Casey"}
+{"id": "employer-employee-08", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "employer-employee-03", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "family-11", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "landlord-tenant-01", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "landlord-tenant-16", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "roommates-00", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "family-05", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "roommates-16", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "landlord-tenant-04", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Greg Russo", "judged_writer": "Greg Russo"}
+{"id": "ex-partners-01", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "roommates-03", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Sam", "judged_writer": "Sam"}
+{"id": "landlord-tenant-01", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "employer-employee-15", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "neighbors-04", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Tom", "judged_writer": "Tom"}
+{"id": "roommates-12", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "family-05", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "family-07", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Lindsey", "judged_writer": "Lindsey"}
+{"id": "landlord-tenant-08", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Elena Vance", "judged_writer": "Elena Vance"}
+{"id": "neighbors-09", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "employer-employee-17", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "family-03", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marta", "judged_writer": "Marta"}
+{"id": "neighbors-14", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "landlord-tenant-10", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "landlord-tenant-07", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maria", "judged_writer": "Maria"}
+{"id": "ex-partners-17", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "landlord-tenant-04", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Greg Russo", "judged_writer": "Greg Russo"}
+{"id": "employer-employee-09", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Marcus Thorne", "judged_writer": "Marcus Thorne"}
+{"id": "ex-partners-12", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "landlord-tenant-02", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Mark", "judged_writer": "Mark"}
+{"id": "landlord-tenant-08", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Elena Vance", "judged_writer": "Elena Vance"}
+{"id": "employer-employee-04", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "ex-partners-17", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "landlord-tenant-00", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Evan Caldwell", "judged_writer": "Evan Caldwell"}
+{"id": "roommates-04", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "landlord-tenant-04", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "landlord-tenant-09", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "roommates-11", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "roommates-03", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "ex-partners-10", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "ex-partners-06", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "family-01", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "family-03", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Leo", "judged_writer": "Leo"}
+{"id": "landlord-tenant-06", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Tom O'Leary", "judged_writer": "Tom O'Leary"}
+{"id": "neighbors-00", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Susan", "judged_writer": "Susan"}
+{"id": "neighbors-05", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "family-14", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Julian", "judged_writer": "Julian"}
+{"id": "employer-employee-05", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "landlord-tenant-04", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Greg Russo", "judged_writer": "Greg Russo"}
+{"id": "employer-employee-08", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "roommates-04", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "family-12", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Julian", "judged_writer": "unclear"}
+{"id": "roommates-04", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "ex-partners-04", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "employer-employee-10", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "roommates-01", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Emily", "judged_writer": "Emily"}
+{"id": "neighbors-14", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "employer-employee-04", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "neighbors-08", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "employer-employee-15", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "roommates-05", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "roommates-09", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Chloe", "judged_writer": "Marcus"}
+{"id": "family-04", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Linda", "judged_writer": "Linda"}
+{"id": "landlord-tenant-03", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "family-06", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "roommates-11", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Leo", "judged_writer": "Leo"}
+{"id": "neighbors-10", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "employer-employee-00", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Daniel O'Brien", "judged_writer": "Daniel O'Brien"}
+{"id": "landlord-tenant-02", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Mark", "judged_writer": "Mark"}
+{"id": "family-12", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "ex-partners-01", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Liam", "judged_writer": "unclear"}
+{"id": "landlord-tenant-07", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "David", "judged_writer": "David"}
+{"id": "roommates-09", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "roommates-12", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "landlord-tenant-16", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "ex-partners-11", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "roommates-11", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "ex-partners-17", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "landlord-tenant-09", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Mrs. Gable", "judged_writer": "Mrs. Gable"}
+{"id": "landlord-tenant-13", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "neighbors-02", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Maria", "judged_writer": "Maria"}
+{"id": "employer-employee-03", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "roommates-00", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "neighbors-02", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "John", "judged_writer": "John"}
+{"id": "neighbors-10", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "ex-partners-03", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "ex-partners-05", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "family-10", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "neighbors-10", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "employer-employee-16", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus Thorne", "judged_writer": "Marcus Thorne"}
+{"id": "employer-employee-10", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "employer-employee-10", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "employer-employee-06", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Daniel Okafor", "judged_writer": "Daniel Okafor"}
+{"id": "family-14", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Julian", "judged_writer": "Julian"}
+{"id": "roommates-08", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "family-08", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "unclear"}
+{"id": "ex-partners-10", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "neighbors-01", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "roommates-05", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Bailey", "judged_writer": "Bailey"}
+{"id": "neighbors-02", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maria", "judged_writer": "Maria"}
+{"id": "employer-employee-07", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Bob", "judged_writer": "Bob"}
+{"id": "roommates-08", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "employer-employee-00", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Daniel O'Brien", "judged_writer": "unclear"}
+{"id": "employer-employee-10", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "ex-partners-06", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "family-14", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Julian", "judged_writer": "Julian"}
+{"id": "landlord-tenant-07", "model": "glm-5.3-flash", "telling": "B", "true_sender": "David", "judged_writer": "David"}
+{"id": "roommates-00", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "family-04", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Mark", "judged_writer": "unclear"}
+{"id": "employer-employee-05", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Casey", "judged_writer": "Casey"}
+{"id": "roommates-16", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "family-06", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Liam", "judged_writer": "Liam"}
+{"id": "neighbors-16", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "family-12", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Julian", "judged_writer": "Julian"}
+{"id": "neighbors-09", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "employer-employee-06", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Maria Chen", "judged_writer": "Maria Chen"}
+{"id": "neighbors-14", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "neighbors-10", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "roommates-10", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "landlord-tenant-02", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Lisa", "judged_writer": "Lisa"}
+{"id": "neighbors-01", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Tom", "judged_writer": "Tom"}
+{"id": "employer-employee-12", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Sarah Jenkins", "judged_writer": "Sarah Jenkins"}
+{"id": "ex-partners-03", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Jamie", "judged_writer": "Jamie"}
+{"id": "roommates-09", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Chloe", "judged_writer": "Chloe"}
+{"id": "employer-employee-13", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Marcus Thorne", "judged_writer": "Marcus Thorne"}
+{"id": "ex-partners-06", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "roommates-15", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "ex-partners-03", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Jamie", "judged_writer": "unclear"}
+{"id": "roommates-00", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maya", "judged_writer": "unclear"}
+{"id": "employer-employee-00", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maya Chen", "judged_writer": "Maya Chen"}
+{"id": "landlord-tenant-13", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "landlord-tenant-06", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Tom O'Leary", "judged_writer": "Tom O'Leary"}
+{"id": "family-01", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "landlord-tenant-14", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "employer-employee-12", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Sarah Jenkins", "judged_writer": "Sarah Jenkins"}
+{"id": "ex-partners-12", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "roommates-03", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Jordan", "judged_writer": "Jordan"}
+{"id": "ex-partners-12", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Maya", "judged_writer": "unclear"}
+{"id": "employer-employee-10", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "roommates-16", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Maya", "judged_writer": "unclear"}
+{"id": "landlord-tenant-13", "model": "qwen3.8-27b", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "employer-employee-17", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "family-09", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Sarah", "judged_writer": "Sarah"}
+{"id": "employer-employee-16", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Elena Vance", "judged_writer": "Elena Vance"}
+{"id": "neighbors-01", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Tom", "judged_writer": "Tom"}
+{"id": "family-02", "model": "gemma-4-31b-it", "telling": "A", "true_sender": "Karen", "judged_writer": "Karen"}
+{"id": "employer-employee-14", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Elena", "judged_writer": "Elena"}
+{"id": "employer-employee-16", "model": "gemma-4-26b-a4b-it", "telling": "A", "true_sender": "Marcus Thorne", "judged_writer": "Marcus Thorne"}
+{"id": "family-12", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "family-09", "model": "gemma-4-26b-a4b-it", "telling": "B", "true_sender": "Mark", "judged_writer": "Mark"}
+{"id": "neighbors-04", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Tom", "judged_writer": "Tom"}
+{"id": "landlord-tenant-00", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Evan Caldwell", "judged_writer": "Evan Caldwell"}
+{"id": "roommates-04", "model": "glm-5.3-flash", "telling": "A", "true_sender": "Alex", "judged_writer": "Alex"}
+{"id": "roommates-15", "model": "qwen3.8-27b", "telling": "A", "true_sender": "Marcus", "judged_writer": "Marcus"}
+{"id": "family-14", "model": "glm-5.3-flash", "telling": "B", "true_sender": "Maya", "judged_writer": "Maya"}
+{"id": "roommates-10", "model": "gemma-4-31b-it", "telling": "B", "true_sender": "Liam", "judged_writer": "Maya"}

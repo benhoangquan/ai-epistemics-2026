@@ -321,3 +321,45 @@ van Nuenen and Sachdeva (arXiv:2603.05651), and DialDefer (ACL 2026); see the ta
 model's draft with its own verdict on the same telling; (2) the verdict-to-draft gap; and (3) a guard against the
 vagueness hack in a prompt search, with a test of transfer to drafts. We did not re-verify the literature on
 2026-11-15.
+
+
+## Addendum (post hoc, 15 Nov)
+
+Added Sun 15 Nov 2026 after the pilot and after seeing its data. Nothing above was changed. Everything below is post hoc;
+numbers and sources are in `results/E04/new_results.md` (tables in `results/E04/tables_v2.md`, `summary_v2.json`).
+
+- **Checker bug in the pilot.** The pilot fact check (83% of tellings with added facts) showed the checker only the numbered
+  facts, not the background and dispute text the tellings are built from, so that rate is inflated. With the whole source shown
+  (glm-5.3-flash as checker), 50% [39, 61] of the pilot's tellings are flagged (n=92 tellings). Strict regeneration
+  (no added facts; gemma-4-31b-it as generator) gives 20% [14, 25] on first pass and 3% [1, 5] after one regeneration (n=194).
+  The pilot-to-strict gap mixes a prompt change and a generator change. The registered qwen3.5-397b checker was too slow.
+- **Scale-up.** 78 ambiguous + 12 clear scenarios drafted (targets 80 and 20 missed; budget and render failures), 4 drafters
+  (gemma-4-31b-it, glm-5.3-flash, gemma-4-26b-a4b-it, qwen3.8-27b), new strict tellings. Draft mirror bias, judge 1
+  (deepseek, 40 scenarios): +54.8 [+47.0, +62.4], +22.5 [+13.6, +31.2], +54.1 [+46.0, +61.9], +6.5 [-5.2, +18.1] in that
+  order; judge 2 (gemma-4-31b-it, 73 to 78 scenarios): +35.7, +6.9, +36.9, -7.6. The gap is not universal: qwen3.8-27b shows
+  none.
+- **Second judge.** Agreement with judge 1 on 525 drafts: stance r = 0.93 [0.92, 0.94], admits_fault kappa 0.84. The judges
+  agree in rank and sign but judge 2 reads about 11 to 15 points lower. Judge 2 is itself a drafter.
+- **Advocacy control.** A "neutral mediator would endorse" instruction cuts bias by 20 to 44 points (16 scenarios); the pilot
+  drafting gap is therefore larger than a fair-to-both message needs, but "write it for me" still implies some advocacy, which this
+  control cannot size.
+- **Format confounds.** Multi-option drafts (gemma-4-31b 29 of 92 in the pilot) do not drive the result: bias without them is
+  +51.2 [+38.8, +63.2] (n=17), and a forced single-message prompt raises, not lowers, the bias (paired difference -3.1 [-8.8, +2.3]).
+  Restatement text in the transfer drafts (43 of 44, not 12): stripping it, the transfer reduction remains (-17.6 [-29.5, -6.2],
+  n=16 under judge 1; -9.5 [-16.5, -2.5], n=20 under judge 2).
+- **Human labels.** A blinded 120-draft pack and a scoring script are ready; no human labels have been collected, so there is no
+  human validation yet.
+- **Not run:** escalation simulation and symmetry-reward best-of-n (call budget); v2 verdict mirror test (so no v2 verdict-to-draft gap).
+- Spend for these additions: 4,006 calls, $0.94 (E04 tag total 5,486 calls, $1.38).
+
+### Addendum, round 2 (post hoc, 15 Nov, after 15:50 EST)
+
+Details and sources: `results/E04/new_results.md` ("Round 2"), `results/E04/tables_v3.md`. 1,397 further calls, $0.56.
+
+- **Escalation simulation** (30 ambiguous scenarios, gemma-4-31b-it and qwen3.8-27b, 4 messages per chain, judge glm-5.3-flash): hostility does
+  not rise. Change turn 4 minus turn 1: gemma "for me" -0.07 [-0.43, +0.30], mediator 0.00 [-0.31, +0.31]; qwen "for me" -0.59 [-0.97, -0.17], mediator
+  -0.37 [-0.60, -0.13]. "For me" chains are more hostile than mediator chains (paired, all turns: gemma +0.70 [+0.53, +0.86], qwen +0.49 [+0.33, +0.66]). A null result for escalation.
+- **Refusals.** qwen3.8-27b refuses 21% [16, 27] of "for me" drafts (others 1 to 3%). Excluding refusals, its draft bias is +19.2 [+4.8, +33.0] (n=25, judge 1)
+  instead of +6.5, so the round-1 "qwen shows no gap" reading is weakened. A drafter misattributing a fact (H756) is a generation error, not a role-swap bug; a 200-draft sample finds the writer judged to be the recipient in 2% [0, 4].
+- **Judge level.** Against the mean of two Claude Haiku 5.5 annotator runs (LLMs, not humans; mean 65.5): deepseek judge +2.0 [0.0, +3.9], gemma judge -3.7 [-5.8, -1.7].
+- **Verdict test on the strict tellings** (n=40): verdict bias -23.5, -19.8, -0.5, -19.5 for gemma-31b, glm, gemma-26b, qwen3.8; paired draft minus verdict +77.8, +42.2, +54.6, +26.0, all CIs above 0.
