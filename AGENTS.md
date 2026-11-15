@@ -47,3 +47,21 @@ results honest. Sprint facts and the judging rubric are in `docs/sprint.md`; the
 6. **Verdict**: KEEP, DROP or PIVOT, judged against the kill test, in two or three sentences.
 7. **Next steps**: what a full run would add, including the GRPO version if the verdict is KEEP.
 8. **Spend, limitations, prior work**: calls and dollars used, threats to validity, related work found.
+
+## Papers (added Sun 15 Nov, 13:35 EST)
+Two papers are being drafted from the pilots. Plan: `docs/report-plan.md` (outlines, page budgets, work lists).
+Deadline: Mon 16 Nov 06:59 EST (11:59 UTC). Experiments freeze Sun 20:00 EST; after that no new numbers.
+
+- Paper A (E03) lives in `papers/A_reliability_scores/`, paper B (E04) in `papers/B_ghostwriting_gap/`. A paper agent
+  writes only in its own directory and reads everything else. It never edits `experiments/` or `results/`.
+- Experiment agents own `experiments/E03_track_record/` + `results/E03/` and `experiments/E04_mirror_test/` +
+  `results/E04/`. They add new files (suffix `_v2` or a new name) and never overwrite or delete a file a paper already cites.
+  Changes to a pre-registered section are labelled "post hoc" in the README.
+- Hand-off from experiments to papers is a file: `results/EXX/new_results.md`, listing each new number with its source
+  file. Paper agents mark anything waiting on it as `[[PENDING: what, from which experiment]]`.
+- Papers are written in Markdown, ready to paste into the official Google Doc template (it cannot be edited from here).
+  8 pages excluding references and appendices, about 4,000 to 4,500 words including captions.
+- Every number in a paper must appear in `papers/<X>/numbers.md` with its source file. Every cited work must be opened
+  and verified first, with the URL recorded in `papers/<X>/references.md`. A fabricated number or reference can
+  disqualify the submission, so drop any claim you cannot verify.
+- Authors and affiliations: leave `[AUTHORS: confirm]`. Do not invent affiliations.

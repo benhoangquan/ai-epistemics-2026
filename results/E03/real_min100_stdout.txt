@@ -1,0 +1,104 @@
+{
+ "tag": "main",
+ "n_bets_filtered": 528404,
+ "n_claims_all_users": 168701,
+ "n_claims_analysed": 17077,
+ "n_users_analysed": 112,
+ "n_users_total": 28704,
+ "n_markets": 698,
+ "markets_skipped": {
+  "truncated": 2,
+  "missing": 0,
+  "bad_resolution": 0
+ },
+ "date_range": [
+  "2021-12-28",
+  "2026-11-12"
+ ],
+ "share_claims_correct_direction": 0.5627452128594015,
+ "share_claims_near_certain": 0.07876090648240323,
+ "spearman_nearcertain_vs_accrank_minus_igrank": 0.564670103917629,
+ "ci": [
+  0.3911051221848886,
+  0.6734280091832427
+ ],
+ "spearman_late_share_vs_accrank_minus_igrank": 0.12212201523563201,
+ "late_ci": [
+  -0.07419850754769483,
+  0.30806688169709867
+ ],
+ "share_claims_late": 0.12221116121098553,
+ "top_acc_decile_n": 12,
+ "top_acc_decile_median_ig_pct": 36.160714285714285,
+ "top_acc_decile_share_below_median_ig": 0.5833333333333334,
+ "high_near_certain_users_n": 12,
+ "high_near_certain_cut": 0.17260338345864662,
+ "high_near_certain_median_acc_pct": 94.19642857142857,
+ "high_near_certain_median_ig_pct": 29.910714285714285,
+ "spearman_acc_vs_ig": 0.25742096407270587,
+ "selection_habit": {
+  "temporal_split_rho_mean_fav_prob": 0.7690914682065125,
+  "ci": [
+   0.6447997963842298,
+   0.8518649048665645
+  ],
+  "spearman_mean_fav_prob_vs_ACC": 0.7566735288615221,
+  "spearman_mean_fav_prob_vs_IG": -0.1849779615266341
+ },
+ "spearman_brier_vs_ig": 0.03971196227833396,
+ "eb_constants": {
+  "brier": {
+   "mu": -0.19495308149036308,
+   "kappa": 74.42055278501964,
+   "s2w": 0.039400961443094976,
+   "tau2": 0.0005294365597755426
+  },
+  "ig": {
+   "mu": 0.004952478926944557,
+   "kappa": 127.009246397615,
+   "s2w": 0.03663461549607303,
+   "tau2": 0.0002884405390563829
+  }
+ },
+ "topic_counts": {
+  "politics": 7425,
+  "ai-tech": 4628,
+  "other": 1714,
+  "econ-finance": 1561,
+  "manifold-personal": 765,
+  "sports": 429,
+  "science-health": 404,
+  "culture": 151
+ },
+ "api_users_n": 12,
+ "api_users_median_pct": {
+  "ACC": 26.785714285714285,
+  "BRIER": 37.05357142857143,
+  "LOG": 36.60714285714286,
+  "DW-ACC": 34.375,
+  "DW-BRIER": 56.69642857142858,
+  "TOPIC-BRIER": 35.26785714285714,
+  "EB-BRIER": 35.26785714285714,
+  "BSS": 61.160714285714285,
+  "IG": 55.357142857142854,
+  "EB-IG": 56.25,
+  "EB0-IG": 61.60714285714286,
+  "IG-SUM": 66.96428571428572,
+  "BRIER-GAIN": 62.5
+ }
+}
+       rule  n_users  split_half_random  random_ci_lo  random_ci_hi  split_half_temporal  temporal_ci_lo  temporal_ci_hi
+        ACC      112              0.671         0.569         0.758                0.626           0.481           0.734
+      BRIER      112              0.351         0.152         0.462                0.342           0.153           0.515
+        LOG      112              0.334         0.128         0.442                0.315           0.129           0.490
+     DW-ACC      112              0.538         0.420         0.646                0.517           0.359           0.636
+   DW-BRIER      112              0.287         0.103         0.375                0.227           0.061           0.399
+TOPIC-BRIER      112              0.334         0.126         0.445                0.323           0.135           0.505
+   EB-BRIER      112              0.369         0.159         0.475                0.355           0.154           0.531
+        BSS      112              0.390         0.248         0.530                0.218           0.046           0.388
+         IG      112              0.390         0.233         0.527                0.185           0.004           0.369
+      EB-IG      112              0.392         0.227         0.518                0.164          -0.018           0.356
+     EB0-IG      112              0.399         0.236         0.525                0.165          -0.019           0.355
+     IG-SUM      112              0.405         0.241         0.533                0.152          -0.039           0.348
+ BRIER-GAIN      112              0.400         0.252         0.527                0.229           0.049           0.404
+wrote fig2

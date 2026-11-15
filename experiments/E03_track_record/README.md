@@ -369,3 +369,22 @@ reported only as an aggregate.
 - Not found: prior work that trains an adaptive (learning) zero-skill source against a panel of reliability scores
   and ranks the scores by learned inflation. The search was brief, so this needs a proper literature check before
   any novelty claim.
+
+## Addendum (post hoc, 15 Nov)
+Everything below was run after the pre-registered pilot and after seeing its results; sections 1-8 above are unchanged. Full numbers,
+exact commands, CIs and source files are in `results/E03/new_results.md`. New code: `run_seeds30.py`, `sim_recal.py`, `analyze_v2.py`,
+`real_minclaims.py`, `real_recal.py`, `llm_pundit.py`, `analyze_llm.py`.
+
+- **More seeds (30 instead of 10, main and R2).** No verdict changed. Learned-cheater percentile (mean [95% CI], n = 30 seeds): main BSS 72.5 [68.9, 75.7],
+  seed range 39.2 to 89.4 (SD 9.8), IG 27.8, EB0-IG 11.3, IG-SUM 11.5; R2 IG-SUM 81.1 [80.3, 81.8]. Files `sim_main_30seeds.json`, `sim_R2_30seeds.json`, `sim_30seeds_summary.csv`.
+- **Recalibrated crowd baseline (closes R2 in simulation, with caveats).** Baseline fitted on already-resolved earlier events only (time-split blocks). A logistic recalibration
+  brings the R2 IG-SUM cheater from 85.2 [84.3, 86.1] (raw baseline, same events) to 16.2 [14.7, 18.0] (n = 30 seeds) and EB0-IG from 52.3 to 13.3, but the logistic map is
+  well-specified for this bias. **Isotonic recalibration fails** (IG-SUM 65.8 [64.5, 67.1] even with an unbiased crowd) because the noisy baseline is worse than the raw calibrated crowd and
+  can be beaten by volume. BSS stays gameable (71-80) under every baseline. A tail-bias variant (R2tail) was too mild to stress the fit. Files `sim_recal_summary.csv`, `sim_recal_all.json`.
+- **Higher-volume Manifold stability.** With >= 50 claims (488 users) random split-half rho is 0.16 to 0.21 for crowd-relative rules and 0.47 for ACC; with >= 100 claims (112 users)
+  0.39 to 0.40 and 0.67, but temporal early-vs-late rho for crowd-relative rules is only 0.15 to 0.23 (CIs reach 0). The gaming signature strengthens (rho 0.52 and 0.56 vs 0.42). Files `real_min50/`, `real_min100/`.
+- **Negative result (stretch):** a time-split recalibrated baseline on the real Manifold ledger is *worse* than the raw price out of sample (mean log2 score -0.832 vs -0.790) because the crowd's
+  bias drifts; user ranks do not become more stable. Files `real_recal_summary.json`, `real_recal_stability.csv`.
+- **LLM pundit (stretch, simulated world, 2 models, 223 calls in total).** Told the rule is accuracy or Brier, the LLM rediscovers cherry-picking (held-out percentile 98.8 and 99.0, n = 4 runs each); under IG,
+  IG-SUM and BSS it stays below the median (0.7, 5.2, 13.8) and does not find the BSS exploit that CEM found. Tiny n; deepseek was dropped. Files `llm_pundit_log.csv`, `llm_pundit_summary.csv`.
+- The optimizer remains a lower bound on exploitability; an LLM or CEM failing to exploit a rule is not a proof of resistance.

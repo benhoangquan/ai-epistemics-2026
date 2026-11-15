@@ -1,0 +1,21 @@
+0 gemma-4-31b-it ACC A best 100 B 98 calls 9
+0 gemma-4-31b-it BRIER A best 98 B 100 calls 18
+0 gemma-4-31b-it IG A best 36 B 1 calls 27
+0 gemma-4-31b-it IG-SUM A best 12 B 3 calls 36
+0 gemma-4-31b-it BSS A best 10 B 16 calls 45
+0 gemma-4-26b-a4b-it ACC A best 100 B 98 calls 58
+0 gemma-4-26b-a4b-it BRIER A best 97 B 98 calls 67
+0 gemma-4-26b-a4b-it IG A best 80 B 1 calls 76
+0 gemma-4-26b-a4b-it IG-SUM A best 2 B 10 calls 85
+0 gemma-4-26b-a4b-it BSS A best 23 B 6 calls 94
+1 gemma-4-31b-it ACC A best 100 B 98 calls 107
+1 gemma-4-31b-it BRIER A best 100 B 99 calls 116
+B invalid 1 gemma-4-31b-it IG
+1 gemma-4-31b-it IG-SUM A best 24 B 8 calls 135
+1 gemma-4-31b-it BSS A best 14 B 9 calls 144
+1 gemma-4-26b-a4b-it ACC A best 100 B 100 calls 157
+1 gemma-4-26b-a4b-it BRIER A best 99 B 99 calls 166
+1 gemma-4-26b-a4b-it IG A best 4 B 0 calls 175
+1 gemma-4-26b-a4b-it IG-SUM A best 0 B 0 calls 184
+1 gemma-4-26b-a4b-it BSS A best 13 B 24 calls 193
+total calls 197
