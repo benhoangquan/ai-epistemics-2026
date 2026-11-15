@@ -71,6 +71,24 @@ GRPO with LoRA on a 0.5B to 1.5B model in TRL.
    - *Kill test:* Drop if it would read as a rerun of our own earlier submission. Reframe it around omission detection (P2.2d).
 <!-- END:top-picks -->
 
+## Pilot results and the report plan
+Five pilots ran on Sat 14 and Sun 15 Nov, one per top pick. Each has its own README under `experiments/` with the
+pre-registered kill test, results and verdict, and its outputs under `results/`.
+
+| Run | Pilot | Verdict |
+|---|---|---|
+| E01 | Cheat policies vs. epistemic benchmarks | Pivot: robust exploits are already documented or plain refusal |
+| E02 | Warranted vs. capitulating flips | Keep: models follow the named answer, not the argument |
+| E03 | Learned cheaters vs. reliability scores | Keep: learned-attacker audit of 13 scoring rules |
+| E04 | Mirror test, pivoted to ghostwriting | Pivot: drafts are far more one-sided than verdicts |
+| E05 | Tamper-evident agent logs | Pivot: omission detection; overlaps existing tools |
+
+The plan for the report recommends E03 as the primary submission and E04 as the secondary. It has outlines with
+page budgets, a work list with hour estimates, rubric fit, a timeline and risks:
+[`docs/report-plan.md`](docs/report-plan.md) · interactive map [`mindmap/plan.html`](mindmap/plan.html) ·
+private artifact <https://claude.ai/artifact/FuyiyYUs6Sb3BWMVCniFWH>. The source is `report-plan.yaml`; rebuild with
+`python3 scripts/build_plan.py`.
+
 ## How the RL versions work
 Every RL version uses one of seven patterns: RL adversary, metric as reward, bandit for active evaluation,
 self-play, inverse RL, delayed reward, and off-policy evaluation. They are defined at the top of
@@ -85,6 +103,8 @@ every generated file plus the marked sections of this README.
 ## Repo map
 - `brainstorm.yaml`: the only source for problems, ideas, RL versions, themes and top picks
 - `scripts/build.py`, `scripts/page.html`: the generator and the HTML template for the interactive map
+- `report-plan.yaml`, `scripts/build_plan.py`, `scripts/plan_page.html`: the report plan and its generator
+- `experiments/EXX_*/`, `results/EXX/`: the five pilots (see AGENTS.md for the rules they followed)
 - `docs/sprint.md`: sprint facts, judging rubric, submission rules and reading list
 - `docs/problems.md`, `docs/ideas.md`, `docs/mindmaps/`: generated
 - `mindmap/mindmap.md`, `mindmap/index.html`: generated

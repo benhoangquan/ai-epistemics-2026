@@ -1,0 +1,334 @@
+# Single source for the report plan. Edit this file, then run: python3 scripts/build_plan.py
+# Node format: n = name, d = detail text, k = children, c = branch color (top level only).
+# Numbers come from results/E01..E05 (see the "Evidence" nodes); hours are estimates, not measurements.
+
+title: Report plan
+subtitle: Apart AI x Epistemics sprint, submissions close Mon 16 Nov 06:59 EST (11:59 UTC)
+written: Sun 15 Nov 2026, 13:17 EST, 17.7 hours before the deadline
+
+tree:
+  - n: Decision, what we submit
+    c: pick
+    d: >-
+      Recommended: two submissions, with E03 as the primary and E04 as the secondary. Each person may be on at most
+      two projects, so a team of four can cover both. Go/no-go checkpoint for E04 at Sun 15:00 EST: if it cannot get
+      a second judge and human labels by then, drop it and move everyone to E03.
+    k:
+      - n: Primary, E03 reliability scores
+        d: >-
+          Track 2. Answers a stated challenge directly: which source-reliability scoring methods are hardest to cheat
+          and easiest to audit. Strongest execution of the five pilots: 10 seeds, 168,701 real claims, CIs and both
+          figures already exist, and it needs no model calls.
+      - n: Secondary, E04 ghostwriting gap
+        d: >-
+          Track 3. Answers another stated challenge: do chatbots escalate or de-escalate disputes. The most novel
+          behavioral finding, but the weakest execution today (47 scenarios, one same-family judge, no human labels).
+          It is submittable only after the must-do items in its work list.
+      - n: Shelved, E01 E02 E05
+        d: >-
+          Keep as repo write-ups, each with its own README. E01: the robust exploits are already documented or plain
+          refusal. E02: a clean result, but the wrong-start cells are small (n=15 to 18 for two models). E05: logsiegel
+          and Agent Flight Recorder already built most of the recorder, and the overlap with our swarm repo is
+          moderate. If space allows, cite them as supporting results in a discussion section.
+      - n: Why not one umbrella paper
+        d: >-
+          A "metrics are gameable, check actions" paper would put four pilots with n from 24 to 150 into 8 pages, and
+          judges score execution on the weakest part. Two focused papers each keep one claim.
+      - n: Fallback, one paper only
+        d: >-
+          If the team is short on people or time, submit E03 alone. Its remaining work is CPU and writing.
+
+  - n: Paper A, E03 reliability scores
+    c: t2
+    d: >-
+      Working title: "Which Reliability Score Survives a Learning Cheater?" Track 2, Trust infrastructure. The case
+      for it: a stated challenge, real data at scale, and a result that goes beyond the obvious.
+    k:
+      - n: Claim
+        d: >-
+          A zero-skill source that learns which claims to make reaches the top percentile of accuracy and Brier
+          leaderboards, finds exploits in two rules that look robust, and is held down only by crowd-relative
+          information-gain rules, until the crowd baseline is predictably miscalibrated.
+        k:
+          - n: Known part
+            d: >-
+              Accuracy and Brier inflation is close to obvious. Selection incentives under Brier are already
+              documented (Sempere and Lawsen 2021, to be re-verified). Say so plainly in the paper.
+          - n: New part
+            d: >-
+              The learned-attacker audit. It found two exploits that all 10 hand-coded cheats missed, and showed that
+              every crowd-relative rule fails under a biased baseline.
+      - n: Headline numbers
+        d: All from results/E03/sim_summary.csv unless noted. Percentile among 200 honest sources, 10 seeds, 95% CI over seeds.
+        k:
+          - n: Accuracy 98.9, Brier 99.8
+            d: Learned cheater percentile, CIs [98.7, 99.0] and [99.7, 99.9]. Cherry-picking near-certain events.
+          - n: BSS ratio 69 vs 20
+            d: Brier skill score as a ratio, learned cheater 69.4 [59.9, 77.5] against 20.2 for the best hand-coded cheat. Seed spread is wide (39 to 89), so rerun with more seeds.
+          - n: Shrink to mean 41 vs 23
+            d: Shrinkage toward the population mean gives 41.2 [40.4, 41.9] against 23.3 for the best hand-coded cheat. Shrinking toward zero skill gives 10.8 [10.2, 11.5].
+          - n: Biased crowd, 82
+            d: Under a predictably miscalibrated crowd baseline (condition R2), total information gain is pushed to 81.9 [80.7, 83.0].
+          - n: Manifold, rho 0.42
+            d: >-
+              83,298 claims from 1,855 users. Share of bets on 90%+ favourites correlates with accuracy rank minus
+              information-gain rank at rho 0.42 [0.38, 0.45] (results/E03/real_summary_main.json).
+      - n: Outline, 8 pages
+        d: Page budgets add up to 8.0. References, the required Limitations and Dual-Use appendix, and extra tables go after page 8.
+        k:
+          - n: Intro, 0.75
+            d: Why reliability scores matter, the cheater framing, the four contributions.
+          - n: Related work, 0.5
+            d: Proper scoring rules, selection effects in forecasting platforms, Community Notes bridging, forecaster ranking on Manifold and Metaculus.
+          - n: Setup, 1.25
+            d: The simulated world, the 13 rules, the learning cheater (cross-entropy method policy search) and the inflation metric.
+          - n: Simulation results, 1.75
+            d: Figure 1 (inflation by rule) and Table 1 (rules, percentiles, CIs).
+          - n: Why rules fail, 1.0
+            d: The three mechanisms with one short worked example each. Figure 3 for the recalibrated baseline.
+          - n: Real data, 1.0
+            d: Manifold ledger, the gaming signature, rule stability. Figure 2. State the stability caveat honestly (split-half rho about 0.07 for crowd-relative rules).
+          - n: Recommended rule, 0.75
+            d: Difference score summed or shrunk to zero skill, minimum volume, timestamped recalibrated baseline. An audit checklist for platform builders.
+          - n: Discussion, 1.0
+            d: Limits (simulation assumptions, lower-bound optimizer, play-money data) and what a platform should do next.
+      - n: Evidence on disk
+        d: Every number in the paper must come from one of these files.
+        k:
+          - n: Figures
+            d: results/E03/fig1_cheater_inflation.png and results/E03/fig2_manifold.png.
+          - n: Simulation tables
+            d: results/E03/sim_summary.csv, sim_main_strong.json, sim_transfer_main.csv, killtest_sim.json.
+          - n: Real-data tables
+            d: results/E03/real_summary_main.json, real_stability_main.csv, real_rule_corr_main.csv, real_claims_main.csv.gz (hashed user ids).
+      - n: Work before writing
+        d: Estimated hours in brackets. Must-do items first.
+        k:
+          - n: Close R2, 2h, must-do
+            d: Add a recalibrated-crowd baseline (fit the crowd's calibration curve on past resolved markets) and show it restores resistance. Without it the recommended rule is untested.
+          - n: More seeds, 0.5h, must-do
+            d: Rerun the main conditions at 30 seeds and report the spread. BSS ranged from 39 to 89 across 10 seeds.
+          - n: Reframe the claim, 0.5h, must-do
+            d: Present accuracy and Brier inflation as confirmation of known effects, and make the learned-attacker findings the headline.
+          - n: Figures, 1.5h
+            d: Polish Figures 1 and 2, add Figure 3 (R2 and recalibration) and a one-panel setup schematic.
+          - n: Appendix, 1h
+            d: Limitations and Dual-Use from the E03 README section 8. Each attack is reported with a rule that resists it, and user ids are hashed.
+          - n: Higher-volume check, 1h
+            d: Rerun the real-data stability analysis at higher minimum claim counts, since 20 claims is too noisy for crowd-relative rules.
+      - n: Stretch, the RL version
+        d: Only if must-do items are done by Sun 20:00 EST.
+        k:
+          - n: LLM pundit, 3h
+            d: >-
+              An LLM picks which questions from a resolvable pool to claim and states probabilities, rewarded by its
+              ledger percentile (best-of-n or a bandit through epi.llm, about 500 calls). Does it rediscover
+              cherry-picking, the BSS exploit and shrink-to-mean? Does it stop under IG-SUM?
+          - n: Backtest on Manifold, 2h
+            d: Recalibrated-baseline information gain backtested on the real ledger.
+          - n: GRPO version
+            d: Future work only. Name it in the discussion, do not claim it.
+      - n: Abstract draft
+        d: >-
+          Reliability scores for forecasters, pundits and AI sources are only useful if they resist gaming. We ask
+          which of 13 common scoring rules survives a learning cheater: a zero-skill source that optimizes which
+          events to claim and what probability to state. In simulation (10 seeds, 200 honest sources per world) the
+          cheater reaches the 98.9th percentile of honest sources under accuracy and the 99.8th under Brier score.
+          It also finds exploits that 10 hand-coded cheats missed: the Brier skill score written as a ratio (69th
+          percentile against 20th) and shrinkage toward the population mean (41st against 23rd). Crowd-relative
+          information-gain rules with shrinkage toward zero skill hold the cheater near the 11th percentile, until the
+          crowd baseline is predictably miscalibrated, which lifts total information gain to the 82nd percentile.
+          On 83,298 resolved Manifold Markets claims from 1,855 users, the share of bets on heavy favourites
+          correlates with accuracy rank minus information-gain rank (rho 0.42), a gaming signature. [Recalibrated
+          baseline result goes here once R2 is closed.] We give an audit checklist for platform builders and release
+          code. DRAFT: re-derive every number after the reruns.
+
+  - n: Paper B, E04 ghostwriting gap
+    c: t3
+    d: >-
+      Working title: "Fair in Verdict, Partisan in Draft: How LLM Ghostwriting Takes the Narrator's Side." Track 3,
+      Epistemic products. Submit only if the must-do items below are done.
+    k:
+      - n: Claim
+        d: >-
+          Asked who is right in a dispute, models do not side with the narrator. Asked to draft the narrator's
+          message, they do, by a large margin. Verdict-only tests miss the behavior that matters.
+        k:
+          - n: What ELEPHANT already shows
+            d: >-
+              ELEPHANT (Cheng et al., arXiv:2505.13995, to be re-verified) reports both-sides affirmation at the
+              verdict level. Our verdict replication found no narrator-siding, so we do not claim to overturn it.
+          - n: What is new
+            d: A controlled mirrored drafting test, the verdict-to-draft gap on the same telling, and a guard against the vagueness hack in a prompt search.
+      - n: Headline numbers
+        d: All from results/E04/tables.md and summary.json. 95% bootstrap CIs over scenarios.
+        k:
+          - n: Verdict bias, about zero
+            d: Ambiguous scenarios, four models, n=34 to 36 each. gemma-26b +6.7 [-0.7, +14.0]; gemma-31b -12.2 [-19.4, -4.7]; qwen3.8-27b -5.6 [-12.0, +0.8]; glm-flash -9.2 [-13.9, -4.6].
+          - n: Draft bias, +50 and +17
+            d: gemma-4-31b +50.3 [+41.2, +59.2] (n=33). glm-5.3-flash +16.8 [+9.0, +24.5] (n=36).
+          - n: Paired gap, +59
+            d: Draft minus verdict bias for gemma-4-31b, +58.9 [+47.5, +70.2], n=42.
+          - n: Fault admitted 49%
+            d: When gemma-4-31b's own verdict assigns fault to the narrator, its draft admits fault in 49% [37, 60] of cases (n=68 drafts).
+      - n: Outline, 8 pages
+        d: Page budgets add up to 8.0.
+        k:
+          - n: Intro, 0.75
+            d: Chatbots as ghostwriters in disputes, the verdict versus draft gap.
+          - n: Related work, 0.5
+            d: ELEPHANT, DialDefer, other perspective-swap studies, work on LLM mediation and escalation.
+          - n: Design, 1.5
+            d: Scenario generation, mirrored tellings, the verdict task, the draft task, judges, fact checks, human labels.
+          - n: Verdict results, 0.75
+            d: The null result, reported as a replication.
+          - n: Draft results, 1.5
+            d: Mirror bias, the paired gap, fault admission. One main figure.
+          - n: Mechanisms and controls, 1.0
+            d: Advocacy control, vagueness guard, symmetry search.
+          - n: Escalation simulation, 1.0
+            d: Both parties use assistants, multi-turn. The direct answer to the track's question.
+          - n: Discussion, 1.0
+            d: Limits and what product teams should test.
+      - n: Evidence on disk
+        d: Every number must come from one of these files.
+        k:
+          - n: Tables and summary
+            d: results/E04/tables.md and summary.json.
+          - n: Raw outputs
+            d: results/E04/mirror.jsonl, drafts.jsonl, transfer_drafts.jsonl, plus the generated scenarios.
+      - n: Work before writing
+        d: Estimated hours in brackets. The first four are must-do.
+        k:
+          - n: Second judge and human labels, 3h, must-do
+            d: >-
+              A different-family judge, plus at least two team members labelling 100 or more drafts for stance and
+              fault admission. Report agreement (Cohen's kappa). The pilot's only draft measure is one same-family LLM.
+          - n: Fix the fact sheets, 2h, must-do
+            d: >-
+              The fact check found added facts in 83% of tellings, which would inflate both biases. Hand-verify or
+              regenerate with a constraint, and rerun the check with the registered judge (qwen3.5-397b).
+          - n: Advocacy control, 1h, must-do
+            d: >-
+              "Write the message for me" is advocacy by nature. Add a condition asking for a message a neutral mediator
+              would endorse, so the claim is about drift beyond what the instruction requires.
+          - n: Scale up, 1.5h, must-do
+            d: About 120 scenarios and four drafters, roughly 1,500 calls, about 35 minutes at the shared rate limit.
+          - n: Escalation simulation, 3h
+            d: Feed each side's draft to the other side's assistant for several turns and measure hostility and concessions.
+          - n: Symmetry-reward search, 2h
+            d: >-
+              Best-of-n with a symmetry reward and a guard against vagueness. The pilot's best prompt (third-person
+              retelling) was null on held-out verdicts but cut draft bias on glm by 18.2 [-26.0, -10.7] (n=22). Report as partial.
+          - n: Re-verify literature, 1h
+            d: Prior work was checked on 14 Nov only. Redo it, and cite only what we have opened.
+      - n: Abstract draft
+        d: >-
+          Chatbots increasingly help people write messages in conflicts. We test whether models take the narrator's
+          side. Each dispute is written as a neutral fact sheet and told in first person from each party, so any gap between the two tellings' ratings isolates narrator-siding, and we compare each model's verdict with its own draft on the same telling. Asked for a verdict, four models show no
+          consistent narrator-siding (mirror bias between -12 and +7 points, 34 to 36 ambiguous scenarios each), in
+          line with a null replication of verdict-level tests. Asked to draft the narrator's message, bias rises to
+          +50 points for gemma-4-31b and +17 for glm-5.3-flash. The paired verdict-to-draft gap for gemma-4-31b is
+          +59 points [48, 70]. When its own verdict assigns fault to the narrator, its draft admits fault in 49% of
+          cases [37, 60]. [Human-label agreement, advocacy control and escalation simulation results go here.] Verdict
+          tests alone miss this behavior. DRAFT: pilot numbers on 47 scenarios with one same-family judge; re-derive
+          after the fixes.
+
+  - n: Judging rubric fit
+    c: t1
+    d: >-
+      Each report is scored 1 to 5 on three dimensions. The scores below are my own estimate from the pilots, not
+      Apart's, and they exist to decide where the remaining hours go.
+    k:
+      - n: Impact and innovation
+        d: A score of 4 or 5 needs work that is new to the field, not a replication.
+        k:
+          - n: A, about 3 to 4
+            d: The learned-attacker audit is new; accuracy and Brier inflation is not. Strengthened by closing R2.
+          - n: B, about 4
+            d: The verdict-to-draft gap is new as far as we found. It must survive the advocacy control and a fresh literature check.
+      - n: Execution quality
+        d: Sound method, implementation and findings.
+        k:
+          - n: A, about 4
+            d: "Seeds, real data at scale, CIs, hashed ids. Gaps: simulation assumptions, no ground truth in the real data."
+          - n: B, about 2 to 3 today
+            d: n=47, one same-family judge, 83% of tellings with added facts. Reaches 3 to 4 only if the must-do items are done.
+      - n: Presentation and clarity
+        d: Judges may decline to score a report they cannot follow.
+        k:
+          - n: Single claim per paper
+            d: Each abstract states the claim and two or three numbers. Every figure answers one question.
+          - n: Template discipline
+            d: Use the official template, keep to 8 pages, and put the required appendix after the references.
+
+  - n: Shared deliverables
+    c: theme
+    d: Things both papers need, whichever are submitted.
+    k:
+      - n: Official template
+        d: >-
+          The Guidelines tab links a Google Doc: https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/copy?usp=sharing
+          Make a copy for each paper today and export a test PDF early to check fonts and figures survive.
+      - n: Abstract, 150 to 250 words
+        d: Check the word count of both drafts above before submitting.
+      - n: Limitations and Dual-Use appendix
+        d: Required. E03's version exists in its README section 8. E04's must cover drafting aids that tilt disputes and the risk of publishing prompts that raise one-sidedness.
+      - n: Prior work disclosure
+        d: >-
+          Code written before the sprint must be marked as preexisting. Nothing here predates the sprint except the
+          swarm-alignment-2026 repo, which E05 only would have built on. Cite it if E05 appears anywhere.
+      - n: AI-tool use statement
+        d: AI tools are allowed, but teams are responsible for all content. State that models and coding agents were used, and for what.
+      - n: Citation audit
+        d: >-
+          Fabricated references can disqualify a submission. Open every cited paper, record the URL, and drop any
+          that cannot be verified. Several citations in the pilot READMEs were checked only on 14 Nov.
+      - n: Reproducibility
+        d: >-
+          A public repo is optional but useful, and the current repo is private. Decide before submitting whether to
+          make it public. Raw Manifold caches stay out of git, and only hashed ids are committed.
+      - n: Submit
+        d: >-
+          PDF of 25 MB or less through the form on the sprint page. Resubmitting under the same title before the
+          deadline replaces the earlier one. Optional: a 3 to 5 minute video, slides, a project image.
+
+  - n: Timeline, EST
+    c: t4
+    d: Deadline is Mon 16 Nov 06:59 EST. The plan keeps a two-hour buffer.
+    k:
+      - n: Sun 13:30, decide and assign
+        d: Confirm the two-paper decision, name an owner and a writer for each paper, copy the template.
+      - n: Sun 15:00, E04 checkpoint
+        d: Go/no-go. E04 continues only if the second judge and a labelling plan are in place.
+      - n: Sun 20:00, experiments freeze
+        d: No new numbers after this. Regenerate every table and figure from the results files.
+      - n: Mon 01:00, full drafts
+        d: Both papers complete, with all numbers, figures and the appendix.
+      - n: Mon 03:00, review done
+        d: One cross-read per paper by someone who did not write it. Fix clarity and claim wording.
+      - n: Mon 04:30, final PDFs
+        d: Citations verified, word counts checked, page limit confirmed, PDF opened and read end to end.
+      - n: Mon 05:00, submit
+        d: Submit both. Confirm each shows as received.
+
+  - n: Risks and fixes
+    c: rl
+    d: The ones most likely to cost points.
+    k:
+      - n: Not enough time
+        d: 17.7 hours. Protect E03 first. Cut stretch items before must-do items, and cut E04 at the checkpoint if needed.
+      - n: E04 execution gaps
+        d: The three biggest are the single judge, the added facts, and no advocacy control. Each has a must-do fix above.
+      - n: Fabricated or wrong citations
+        d: Disqualifying. Run the citation audit as its own task with its own owner.
+      - n: Novelty claims not re-verified
+        d: Prior-work searches date from 14 Nov. Redo them by Sun 18:00 EST and soften any claim that no longer holds.
+      - n: Simulation assumptions in A
+        d: Say plainly that the optimizer gives a lower bound on exploitability and that the real data has no ground-truth skill.
+      - n: Claude usage limit
+        d: Five agents at once hit my 5-hour limit once already. Use fewer, shorter agent runs, and keep results in files so work resumes.
+      - n: Template export
+        d: A Google Doc exported to PDF can shift figures. Export a test PDF today.
+      - n: Dilution across two papers
+        d: Hold the checkpoint rule. If either paper is not clearly ahead by Mon 01:00, submit the stronger one only.
