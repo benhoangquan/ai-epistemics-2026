@@ -1,0 +1,104 @@
+{
+  "subject": "glm-5.3-flash",
+  "train_bias_by_drafter": {
+    "gemma-4-31b-it": -11.538461538461538,
+    "glm-5.3-flash": -9.071428571428571
+  },
+  "baseline_r1": {
+    "n_amb": 7,
+    "mean_abs_bias": 12.142857142857142,
+    "mean_bias": -9.285714285714286,
+    "clear_acc": 1.0,
+    "clear_decisiveness": 29.166666666666668,
+    "n_clear_tellings": 6
+  },
+  "round1": {
+    "fair": {
+      "n_amb": 7,
+      "mean_abs_bias": 27.142857142857142,
+      "mean_bias": -25.714285714285715,
+      "clear_acc": 0.6666666666666666,
+      "clear_decisiveness": 25.0,
+      "n_clear_tellings": 6,
+      "eligible": false
+    },
+    "imagine_other": {
+      "n_amb": 7,
+      "mean_abs_bias": 19.285714285714285,
+      "mean_bias": -17.857142857142858,
+      "clear_acc": 0.8333333333333334,
+      "clear_decisiveness": 23.333333333333332,
+      "n_clear_tellings": 6,
+      "eligible": false
+    },
+    "facts_both": {
+      "n_amb": 7,
+      "mean_abs_bias": 11.428571428571429,
+      "mean_bias": -7.142857142857143,
+      "clear_acc": 0.8333333333333334,
+      "clear_decisiveness": 23.333333333333332,
+      "n_clear_tellings": 6,
+      "eligible": false
+    },
+    "symmetry": {
+      "n_amb": 7,
+      "mean_abs_bias": 20.0,
+      "mean_bias": -20.0,
+      "clear_acc": 1.0,
+      "clear_decisiveness": 30.0,
+      "n_clear_tellings": 6,
+      "eligible": true
+    },
+    "third_person": {
+      "n_amb": 7,
+      "mean_abs_bias": 5.714285714285714,
+      "mean_bias": -4.285714285714286,
+      "clear_acc": 1.0,
+      "clear_decisiveness": 30.0,
+      "n_clear_tellings": 6,
+      "eligible": true
+    },
+    "vague": {
+      "n_amb": 7,
+      "mean_abs_bias": 7.142857142857143,
+      "mean_bias": -4.285714285714286,
+      "clear_acc": 0.6666666666666666,
+      "clear_decisiveness": 20.833333333333332,
+      "n_clear_tellings": 6,
+      "eligible": false
+    }
+  },
+  "advanced": [
+    "third_person",
+    "symmetry"
+  ],
+  "baseline_train": {
+    "n_amb": 14,
+    "mean_abs_bias": 13.785714285714286,
+    "mean_bias": -9.071428571428571,
+    "clear_acc": 1.0,
+    "clear_decisiveness": 29.416666666666668,
+    "n_clear_tellings": 12
+  },
+  "train_total": {
+    "third_person": {
+      "n_amb": 14,
+      "mean_abs_bias": 9.285714285714286,
+      "mean_bias": -3.5714285714285716,
+      "clear_acc": 1.0,
+      "clear_decisiveness": 29.583333333333332,
+      "n_clear_tellings": 12,
+      "eligible": true
+    },
+    "symmetry": {
+      "n_amb": 14,
+      "mean_abs_bias": 14.285714285714286,
+      "mean_bias": -12.857142857142858,
+      "clear_acc": 1.0,
+      "clear_decisiveness": 29.583333333333332,
+      "n_clear_tellings": 12,
+      "eligible": true
+    }
+  },
+  "best": "third_person"
+}

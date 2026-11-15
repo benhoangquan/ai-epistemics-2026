@@ -1,0 +1,106 @@
+=== stage gen (smoke=True) ===
+[gen] 1 jobs, 0 fresh calls, $0.0000, 1 errors
+   error: RuntimeError: Adaption API: gave up after 8 attempts (glm-5.2)
+gen failed for landlord-tenant/0: Adaption API: gave up after 8 attempts (glm-5.2)
+gen: wrote 0 scenarios (0 train)
+=== stage render (smoke=True) ===
+[render] 0 jobs, 0 fresh calls, $0.0000, 0 errors
+render: wrote 0
+=== stage gen (smoke=True) ===
+=== stage gen (smoke=True) ===
+[gen] 3 jobs, 3 fresh calls, $0.0006, 0 errors
+[gen] 3 jobs, 3 fresh calls, $0.0006, 0 errors
+gen: wrote 3 scenarios (3 train)
+gen: wrote 3 scenarios (3 train)
+=== stage render (smoke=True) ===
+=== stage render (smoke=True) ===
+[render] 3 jobs, 3 fresh calls, $0.0008, 0 errors
+[render] 3 jobs, 3 fresh calls, $0.0008, 0 errors
+render: wrote 3
+render: wrote 3
+=== stage check (smoke=True) ===
+=== stage check (smoke=True) ===
+=== stage gen (smoke=False) ===
+=== stage mirror (smoke=True) ===
+=== stage gen (smoke=False) ===
+[gen] 48 jobs, 37 fresh calls, $0.0091, 0 errors
+gen: wrote 48 scenarios (20 train)
+=== stage render (smoke=False) ===
+[render] 48 jobs, 45 fresh calls, $0.0257, 0 errors
+render failed for landlord-tenant-04: ''
+render failed for landlord-tenant-06: ''
+render failed for employer-employee-01: ''
+render failed for employer-employee-05: ''
+render failed for ex-partners-01: ''
+render failed for ex-partners-03: ''
+render failed for ex-partners-04: ''
+render failed for ex-partners-06: ''
+render failed for ex-partners-07: ''
+render failed for neighbors-01: ''
+render failed for neighbors-03: ''
+render failed for neighbors-04: ''
+render failed for neighbors-05: '{"a_telling": "I signed that piece of paper on March 2, agreeing the new camera would cover only my side yard. But when I installed it on March 5, I realized there was a blind spot near my back door. '
+render failed for neighbors-06: ''
+render failed for roommates-01: ''
+render failed for roommates-04: ''
+render failed for family-01: ''
+render failed for family-03: ''
+render failed for family-04: '{"a_telling": "I\'m writing because I need advice. My brother Mark took my gold pocket watch that our mother left me in her will. The will dated March 15, 2023'
+render: wrote 29
+=== stage check (smoke=False) ===
+[factcheck] 24 jobs, 24 fresh calls, $0.0032, 0 errors
+[balance] 29 jobs, 29 fresh calls, $0.0064, 0 errors
+check: 29 balance rows
+=== stage mirror (smoke=False) ===
+=== stage render (smoke=False) ===
+[render] 48 jobs, 0 fresh calls, $0.0000, 0 errors
+[render-retry] 19 jobs, 19 fresh calls, $0.0079, 0 errors
+render failed for family-04: '{\n  "a_telling": "I found the gold pocket watch missing from Mom\'s safe on May 12, and I knew Mark had taken it. The will dated March 15, 2023, clearly leaves the watch to me. It was always kept in th'
+render: wrote 47
+=== stage check (smoke=False) ===
+[factcheck] 24 jobs, 18 fresh calls, $0.0023, 0 errors
+[balance] 47 jobs, 18 fresh calls, $0.0045, 0 errors
+check: 47 balance rows
+=== stage mirror (smoke=False) ===
+[mirror-gemma-4-31b-it] 141 jobs, 65 fresh calls, $0.0055, 0 errors
+[retry-gemma-4-31b-it] 4 jobs, 4 fresh calls, $0.0020, 0 errors
+[mirror-glm-5.3-flash] 141 jobs, 141 fresh calls, $0.0213, 0 errors
+mirror: 282 rows, 4 unparsed
+=== stage draft (smoke=False) ===
+[draft-gemma-4-31b-it] 94 jobs, 94 fresh calls, $0.0095, 0 errors
+[draftjudge-gemma-4-31b-it] 92 jobs, 92 fresh calls, $0.0111, 0 errors
+[draft-glm-5.3-flash] 94 jobs, 94 fresh calls, $0.0244, 0 errors
+[draftjudge-glm-5.3-flash] 94 jobs, 94 fresh calls, $0.0156, 0 errors
+draft: 186 rows, 1 unrated
+=== stage search (smoke=False) ===
+search: subject=glm-5.3-flash (train mean bias {'gemma-4-31b-it': -11.538461538461538, 'glm-5.3-flash': -9.071428571428571})
+[search-baseline-r1] 20 jobs, 0 fresh calls, $0.0000, 0 errors
+[search-fair-r1] 20 jobs, 20 fresh calls, $0.0031, 0 errors
+[search-imagine_other-r1] 20 jobs, 20 fresh calls, $0.0034, 0 errors
+[search-facts_both-r1] 20 jobs, 20 fresh calls, $0.0033, 0 errors
+[search-symmetry-r1] 20 jobs, 20 fresh calls, $0.0030, 0 errors
+[search-third_person-r1] 20 jobs, 20 fresh calls, $0.0038, 0 errors
+[search-vague-r1] 20 jobs, 20 fresh calls, $0.0029, 0 errors
+search round 1: baseline {"n_amb": 7, "mean_abs_bias": 12.142857142857142, "mean_bias": -9.285714285714286, "clear_acc": 1.0, "clear_decisiveness": 29.166666666666668, "n_clear_tellings": 6}
+   fair           {"n_amb": 7, "mean_abs_bias": 27.142857142857142, "mean_bias": -25.714285714285715, "clear_acc": 0.6666666666666666, "clear_decisiveness": 25.0, "n_clear_tellings": 6, "eligible": false}
+   imagine_other  {"n_amb": 7, "mean_abs_bias": 19.285714285714285, "mean_bias": -17.857142857142858, "clear_acc": 0.8333333333333334, "clear_decisiveness": 23.333333333333332, "n_clear_tellings": 6, "eligible": false}
+   facts_both     {"n_amb": 7, "mean_abs_bias": 11.428571428571429, "mean_bias": -7.142857142857143, "clear_acc": 0.8333333333333334, "clear_decisiveness": 23.333333333333332, "n_clear_tellings": 6, "eligible": false}
+   symmetry       {"n_amb": 7, "mean_abs_bias": 20.0, "mean_bias": -20.0, "clear_acc": 1.0, "clear_decisiveness": 30.0, "n_clear_tellings": 6, "eligible": true}
+   third_person   {"n_amb": 7, "mean_abs_bias": 5.714285714285714, "mean_bias": -4.285714285714286, "clear_acc": 1.0, "clear_decisiveness": 30.0, "n_clear_tellings": 6, "eligible": true}
+   vague          {"n_amb": 7, "mean_abs_bias": 7.142857142857143, "mean_bias": -4.285714285714286, "clear_acc": 0.6666666666666666, "clear_decisiveness": 20.833333333333332, "n_clear_tellings": 6, "eligible": false}
+search: advancing ['third_person', 'symmetry']
+[search-baseline-r2] 20 jobs, 0 fresh calls, $0.0000, 0 errors
+[search-third_person-r2] 20 jobs, 20 fresh calls, $0.0039, 0 errors
+[search-symmetry-r2] 20 jobs, 20 fresh calls, $0.0031, 0 errors
+   train-total third_person   {"n_amb": 14, "mean_abs_bias": 9.285714285714286, "mean_bias": -3.5714285714285716, "clear_acc": 1.0, "clear_decisiveness": 29.583333333333332, "n_clear_tellings": 12, "eligible": true}
+   train-total symmetry       {"n_amb": 14, "mean_abs_bias": 14.285714285714286, "mean_bias": -12.857142857142858, "clear_acc": 1.0, "clear_decisiveness": 29.583333333333332, "n_clear_tellings": 12, "eligible": true}
+[search-baseline-heldout] 54 jobs, 0 fresh calls, $0.0000, 0 errors
+[search-third_person-heldout] 54 jobs, 54 fresh calls, $0.0100, 0 errors
+[transfer-draft-third_person] 44 jobs, 44 fresh calls, $0.0155, 0 errors
+[draftjudge-transfer-third_person] 44 jobs, 44 fresh calls, $0.0081, 0 errors
+search: done. best=third_person; transfer drafts 44
+=== stage mirror (smoke=False) ===
+[mirror-gemma-4-26b-a4b-it] 141 jobs, 134 fresh calls, $0.0083, 0 errors
+[mirror-qwen3.8-27b] 141 jobs, 141 fresh calls, $0.1879, 0 errors
+mirror: 564 rows, 4 unparsed
+PIPE_DONE
