@@ -1,0 +1,26 @@
+{
+ "block1": {
+  "n_fit_markets": 81,
+  "n_resolved_after_block_start": 1,
+  "share_markets": 0.012345679012345678,
+  "share_claims": 0.009003821389310579,
+  "block_markets": 337,
+  "block_claims": 42176
+ },
+ "block2": {
+  "n_fit_markets": 261,
+  "n_resolved_after_block_start": 3,
+  "share_markets": 0.011494252873563218,
+  "share_claims": 0.009638779711772412,
+  "block_markets": 298,
+  "block_claims": 42176
+ },
+ "block3": {
+  "n_fit_markets": 469,
+  "n_resolved_after_block_start": 42,
+  "share_markets": 0.08955223880597014,
+  "share_claims": 0.08897988249955492,
+  "block_markets": 229,
+  "block_claims": 42176
+ }
+}

@@ -1,0 +1,117 @@
+cond     rule  n_seeds  pct  ci_lo  ci_hi  seed_min  seed_max  beat_median_share best_handcoded  best_handcoded_pct  copy_crowd_pct  copy_lo  copy_hi
+main     PEER       30 46.0   43.7   48.3      32.8      61.3                0.5    cherry-pick                43.3            14.2     13.7     14.6
+main PEER-SUM       30 46.8   45.9   47.7      39.8      50.3                0.5    cherry-pick                39.8            12.6     12.3     13.0
+main FE-BRIER       30 43.2   41.6   44.8      35.6      51.2                0.5    cherry-pick                48.3            14.6     14.1     15.1
+  R1     PEER       30 52.5   49.9   55.1      34.4      66.5                0.6    cherry-pick                52.9            22.5     21.9     23.2
+  R1 PEER-SUM       30 52.7   50.8   54.8      43.5      71.7                0.6    cherry-pick                55.8            19.2     18.6     20.0
+  R1 FE-BRIER       30 47.3   45.6   48.9      36.6      56.7                0.6    cherry-pick                50.8            18.9     18.3     19.6
+  R2     PEER       30 49.5   47.6   51.4      40.0      62.5                0.6    cherry-pick                37.2            10.4     10.1     10.8
+  R2 PEER-SUM       30 47.7   47.1   48.4      43.7      50.9                0.5 low-vol-gamble                34.5            10.3     10.0     10.6
+  R2 FE-BRIER       30 46.3   45.5   47.1      42.0      50.7                0.5    cherry-pick                47.7            11.4     11.0     11.8
+cond            R1     R2   main
+rule                            
+ACC           98.9   99.2   98.9
+BRIER         99.8   99.9   99.8
+LOG           99.7   99.9   99.9
+DW-ACC        98.5   98.5   98.2
+DW-BRIER      99.8   99.8   99.7
+TOPIC-BRIER   99.7   99.6   99.7
+EB-BRIER     100.0  100.0  100.0
+BSS           72.8   76.9   72.5
+IG            29.2   40.5   27.8
+EB-IG         42.9   42.6   41.9
+EB0-IG        20.2   46.1   11.3
+IG-SUM        20.0   81.1   11.5
+BRIER-GAIN    21.5   27.8   21.7
+PEER          52.5   49.5   46.0
+PEER-SUM      52.7   47.7   46.8
+FE-BRIER      47.3   46.3   43.2
+EB-BRIER-PM  100.0  100.0  100.0
+EB-IG-PM      42.7   42.1   41.8
+EB0-IG-PM     19.9   39.8   11.6
+            rho_skill             rho_volume            
+cond               R1    R2  main         R1    R2  main
+rule                                                    
+ACC              0.27  0.27  0.26      -0.03 -0.03 -0.03
+BRIER            0.32  0.32  0.32      -0.03 -0.03 -0.03
+LOG              0.32  0.33  0.33      -0.04 -0.04 -0.04
+DW-ACC           0.30  0.29  0.29      -0.03 -0.03 -0.03
+DW-BRIER         0.39  0.37  0.38      -0.03 -0.03 -0.03
+TOPIC-BRIER      0.33  0.33  0.32      -0.03 -0.04 -0.03
+EB-BRIER         0.39  0.40  0.39       0.00  0.00  0.01
+BSS              0.50  0.51  0.53       0.03  0.01  0.03
+IG               0.48  0.54  0.54       0.01  0.01  0.03
+EB-IG            0.53  0.60  0.60      -0.01 -0.03 -0.04
+EB0-IG           0.44  0.41  0.45       0.46  0.68  0.61
+IG-SUM           0.38  0.31  0.36       0.57  0.80  0.74
+BRIER-GAIN       0.49  0.53  0.52       0.03  0.03  0.04
+PEER             0.52  0.61  0.60      -0.02 -0.00 -0.00
+PEER-SUM         0.56  0.65  0.66       0.02 -0.02 -0.01
+FE-BRIER         0.55  0.59  0.59      -0.01 -0.00 -0.00
+EB-BRIER-PM      0.40  0.40  0.40       0.01  0.01  0.01
+EB-IG-PM         0.54  0.60  0.60      -0.01 -0.03 -0.04
+EB0-IG-PM        0.45  0.41  0.46       0.44  0.68  0.61
+cond        rule       group  share_worlds  n_worlds  n_seeds_with    pct  ci_lo  ci_hi
+main    EB-BRIER    at floor          0.40       241          30.0 100.00 100.00 100.00
+main    EB-BRIER above floor          0.60       359          30.0 100.00 100.00 100.00
+main       EB-IG    at floor          0.08        51          23.0  42.69  40.67  44.38
+main       EB-IG above floor          0.92       549          30.0  41.82  41.29  42.31
+main EB-BRIER-PM    at floor          0.06        35          19.0 100.00 100.00 100.00
+main EB-BRIER-PM above floor          0.94       565          30.0 100.00 100.00 100.00
+main    EB-IG-PM    at floor          0.00         0           NaN    NaN    NaN    NaN
+main    EB-IG-PM above floor          1.00       600          30.0  41.83  41.23  42.36
+  R1    EB-BRIER    at floor          0.35       209          30.0 100.00 100.00 100.00
+  R1    EB-BRIER above floor          0.65       391          30.0 100.00 100.00 100.00
+  R1       EB-IG    at floor          0.07        44          25.0  44.62  43.16  46.07
+  R1       EB-IG above floor          0.93       556          30.0  42.75  42.20  43.27
+  R1 EB-BRIER-PM    at floor          0.04        21          16.0  99.99  99.97 100.00
+  R1 EB-BRIER-PM above floor          0.96       579          30.0 100.00 100.00 100.00
+  R1    EB-IG-PM    at floor          0.00         0           NaN    NaN    NaN    NaN
+  R1    EB-IG-PM above floor          1.00       600          30.0  42.72  42.30  43.11
+  R2    EB-BRIER    at floor          0.39       232          30.0 100.00 100.00 100.00
+  R2    EB-BRIER above floor          0.61       368          30.0 100.00 100.00 100.00
+  R2       EB-IG    at floor          0.08        51          25.0  43.12  40.72  45.40
+  R2       EB-IG above floor          0.92       549          30.0  42.54  41.48  43.53
+  R2 EB-BRIER-PM    at floor          0.04        22          17.0 100.00 100.00 100.00
+  R2 EB-BRIER-PM above floor          0.96       578          30.0 100.00  99.99 100.00
+  R2    EB-IG-PM    at floor          0.00         0           NaN    NaN    NaN    NaN
+  R2    EB-IG-PM above floor          1.00       600          30.0  42.10  41.31  42.92
+cond        rule  alpha  beta  n_claims
+main        PEER   2.77  0.23     10.54
+main    PEER-SUM   1.17  0.02     11.92
+main    FE-BRIER   2.09 -0.25     11.03
+main      IG-SUM   1.26  0.03     14.60
+main EB-BRIER-PM   2.45 -0.15    315.98
+main   EB0-IG-PM   1.69 -0.00     13.55
+  R1        PEER   2.28 -0.00     10.63
+  R1    PEER-SUM   1.04 -0.09     72.32
+  R1    FE-BRIER   1.61  0.22     11.27
+  R1      IG-SUM   1.20  0.04     17.25
+  R1 EB-BRIER-PM   2.22 -0.17    363.38
+  R1   EB0-IG-PM   1.16 -0.09     14.87
+  R2        PEER   3.22  0.09     10.53
+  R2    PEER-SUM   1.58  0.09     11.93
+  R2    FE-BRIER   2.21  0.03     11.95
+  R2      IG-SUM   1.32 -0.01    994.32
+  R2 EB-BRIER-PM   2.34  0.38    443.68
+  R2   EB0-IG-PM   1.34 -0.01    709.26
+gamma 2.103582566211016 0.044
+        cond       rule  n_seeds   pct  ci_lo  ci_hi  seed_min  seed_max best_handcoded  best_handcoded_pct  cal_err_raw  cal_err_baseline
+  R2asym_iso        BSS       30 80.34  76.89  83.43     58.68     91.02 low-vol-gamble               26.59         0.04              0.03
+  R2asym_iso         IG       30 24.51  22.85  26.23     15.72     34.31 low-vol-gamble               24.14         0.04              0.03
+  R2asym_iso      EB-IG       30 41.36  40.62  42.12     37.92     46.49 low-vol-gamble               30.82         0.04              0.03
+  R2asym_iso     EB0-IG       30 34.57  32.39  36.60     18.82     45.63     topic-pick               22.99         0.04              0.03
+  R2asym_iso     IG-SUM       30 56.55  53.71  59.11     37.21     67.64     topic-pick               24.50         0.04              0.03
+  R2asym_iso BRIER-GAIN       30 23.33  22.03  24.69     17.48     30.95 low-vol-gamble               21.58         0.04              0.03
+R2asym_logit        BSS       30 81.71  79.54  83.85     69.32     92.68 low-vol-gamble               26.78         0.04              0.03
+R2asym_logit         IG       30 26.10  24.26  27.95     17.59     35.65 low-vol-gamble               24.62         0.04              0.03
+R2asym_logit      EB-IG       30 39.99  39.49  40.52     37.41     43.93 low-vol-gamble               30.39         0.04              0.03
+R2asym_logit     EB0-IG       30 17.38  15.94  18.94     11.88     26.57     topic-pick               18.08         0.04              0.03
+R2asym_logit     IG-SUM       30 29.21  25.79  32.58     11.08     48.08     topic-pick               19.13         0.04              0.03
+R2asym_logit BRIER-GAIN       30 25.88  24.09  27.70     16.98     37.21 low-vol-gamble               22.86         0.04              0.03
+ R2asym_none        BSS       30 77.82  73.43  81.76     40.59     95.44 low-vol-gamble               28.37         0.04              0.04
+ R2asym_none         IG       30 39.74  37.77  41.69     29.58     49.51 low-vol-gamble               27.61         0.04              0.04
+ R2asym_none      EB-IG       30 43.95  42.74  45.12     37.79     50.08 low-vol-gamble               31.67         0.04              0.04
+ R2asym_none     EB0-IG       30 65.47  63.83  67.04     56.36     72.66 low-vol-gamble               12.24         0.04              0.04
+ R2asym_none     IG-SUM       30 92.38  91.99  92.77     90.09     94.56 low-vol-gamble               11.57         0.04              0.04
+ R2asym_none BRIER-GAIN       30 40.98  38.47  43.49     25.87     54.57 low-vol-gamble               24.57         0.04              0.04

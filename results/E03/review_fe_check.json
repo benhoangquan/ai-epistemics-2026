@@ -1,0 +1,17 @@
+{
+ "copy-crowd-n100": {
+  "mean_approx_pct": 17.175,
+  "mean_full_pct": 17.075,
+  "max_abs_diff": 1.5
+ },
+ "cherry-flood-1000": {
+  "mean_approx_pct": 18.45,
+  "mean_full_pct": 18.475,
+  "max_abs_diff": 2.0
+ },
+ "cherry-10": {
+  "mean_approx_pct": 46.95,
+  "mean_full_pct": 47.025,
+  "max_abs_diff": 1.5
+ }
+}

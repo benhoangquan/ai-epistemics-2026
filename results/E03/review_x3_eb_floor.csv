@@ -1,0 +1,25 @@
+cond,rule,group,share_worlds,n_worlds,n_seeds_with,pct,ci_lo,ci_hi
+main,EB-BRIER,at floor,0.402,241,30.0,100.0,100.0,100.0
+main,EB-BRIER,above floor,0.598,359,30.0,100.0,100.0,100.0
+main,EB-IG,at floor,0.085,51,23.0,42.693,40.673,44.38
+main,EB-IG,above floor,0.915,549,30.0,41.817,41.292,42.305
+main,EB-BRIER-PM,at floor,0.058,35,19.0,100.0,100.0,100.0
+main,EB-BRIER-PM,above floor,0.942,565,30.0,99.999,99.998,100.0
+main,EB-IG-PM,at floor,0.0,0,,,,
+main,EB-IG-PM,above floor,1.0,600,30.0,41.831,41.229,42.361
+R1,EB-BRIER,at floor,0.348,209,30.0,100.0,100.0,100.0
+R1,EB-BRIER,above floor,0.652,391,30.0,100.0,100.0,100.0
+R1,EB-IG,at floor,0.073,44,25.0,44.621,43.162,46.073
+R1,EB-IG,above floor,0.927,556,30.0,42.747,42.199,43.268
+R1,EB-BRIER-PM,at floor,0.035,21,16.0,99.992,99.972,100.0
+R1,EB-BRIER-PM,above floor,0.965,579,30.0,100.0,100.0,100.0
+R1,EB-IG-PM,at floor,0.0,0,,,,
+R1,EB-IG-PM,above floor,1.0,600,30.0,42.716,42.303,43.112
+R2,EB-BRIER,at floor,0.387,232,30.0,100.0,100.0,100.0
+R2,EB-BRIER,above floor,0.613,368,30.0,100.0,100.0,100.0
+R2,EB-IG,at floor,0.085,51,25.0,43.118,40.721,45.402
+R2,EB-IG,above floor,0.915,549,30.0,42.539,41.485,43.532
+R2,EB-BRIER-PM,at floor,0.037,22,17.0,100.0,100.0,100.0
+R2,EB-BRIER-PM,above floor,0.963,578,30.0,99.997,99.992,100.0
+R2,EB-IG-PM,at floor,0.0,0,,,,
+R2,EB-IG-PM,above floor,1.0,600,30.0,42.103,41.307,42.922

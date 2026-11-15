@@ -1,0 +1,88 @@
+{
+ "signature": {
+  "original (direction ACC, direction favourite share, mean IG)": {
+   "rho": 0.4163956449021717,
+   "user_boot_ci": [
+    0.3797448387798431,
+    0.45169828646007726
+   ],
+   "market_cluster_boot_ci": [
+    0.32055603304063685,
+    0.39253544465483825
+   ],
+   "n_users": 1855,
+   "n_markets": 698
+  },
+  "price-thresholded ACC, direction favourite share": {
+   "rho": 0.2226323409179345,
+   "user_boot_ci": [
+    0.18084177388415762,
+    0.26557329361983145
+   ],
+   "market_cluster_boot_ci": [
+    0.1232719035516736,
+    0.2042067680699243
+   ],
+   "n_users": 1855,
+   "n_markets": 698
+  },
+  "price-thresholded ACC, price favourite share": {
+   "rho": 0.2305306044259387,
+   "user_boot_ci": [
+    0.18653853289349673,
+    0.272573674295065
+   ],
+   "market_cluster_boot_ci": [
+    0.13378205972365437,
+    0.22029841192248378
+   ],
+   "n_users": 1855,
+   "n_markets": 698
+  },
+  "direction ACC, price favourite share": {
+   "rho": 0.1330448418157899,
+   "user_boot_ci": [
+    0.09061471339533335,
+    0.18089632475432463
+   ],
+   "market_cluster_boot_ci": [
+    0.07444166823731604,
+    0.1564420621570419
+   ],
+   "n_users": 1855,
+   "n_markets": 698
+  },
+  "direction ACC vs DIR-IG, direction share": {
+   "rho": 0.5278105226799737,
+   "user_boot_ci": [
+    0.49813172593928784,
+    0.5572449537401556
+   ],
+   "market_cluster_boot_ci": [
+    0.4518426266619149,
+    0.5317315398422461
+   ],
+   "n_users": 1855,
+   "n_markets": 698
+  }
+ },
+ "fit_sets": {
+  "block1": {
+   "markets_with_last_claim_before_block_start": 81,
+   "claims_in_those_markets": 19103
+  },
+  "block2": {
+   "markets_with_last_claim_before_block_start": 261,
+   "claims_in_those_markets": 64116
+  },
+  "block3": {
+   "markets_with_last_claim_before_block_start": 469,
+   "claims_in_those_markets": 112340
+  }
+ },
+ "markets_total": 698,
+ "claims_total": 168701,
+ "markets_missing_resolution_time": 0,
+ "share_claims_is_limit": 0.057533743131338876,
+ "step_logodds": 0.5
+}
