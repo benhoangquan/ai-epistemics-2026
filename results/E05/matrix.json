@@ -1,0 +1,1586 @@
+{
+ "edit_naive": {
+  "label": "Edit attribute (relabel the forbidden call), no rehash",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "edit_rehash": {
+  "label": "Edit attribute + recompute hash chain",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "delete_naive": {
+  "label": "Delete middle spans, no rehash",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "delete_rehash": {
+  "label": "Delete middle spans + recompute hash chain",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "truncate": {
+  "label": "Truncate tail from the forbidden step + recompute chain",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "reorder_naive": {
+  "label": "Reorder two steps, no rehash, timestamps kept",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G1": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "reorder_rehash": {
+  "label": "Reorder two steps + fix timestamps + recompute chain",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "insert_post": {
+  "label": "Insert fabricated approval step + recompute chain",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "rewrite_resign": {
+  "label": "Rewrite whole chain (delete) + re-sign own checkpoints",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "fork": {
+  "label": "Fork/equivocate: submit re-signed sanitized checkpoints to the witness",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "fabricate_post": {
+  "label": "Fabricate tool output (length-matched) + recompute chain",
+  "timing": "post_hoc",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "window_delete": {
+  "label": "Delete inside the checkpoint window (live)",
+  "timing": "live",
+  "n_applicable": 20,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G1": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G2": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G3": {
+     "det": 3,
+     "evade": 7,
+     "n": 10
+    },
+    "G4": {
+     "det": 10,
+     "evade": 0,
+     "n": 10
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G1": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G2": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G3": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G4": {
+     "det": 10,
+     "evade": 0,
+     "n": 10
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 3,
+     "evade": 17,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   }
+  }
+ },
+ "window_relabel": {
+  "label": "Relabel inside the checkpoint window (live)",
+  "timing": "live",
+  "n_applicable": 20,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G1": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G2": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G3": {
+     "det": 10,
+     "evade": 0,
+     "n": 10
+    },
+    "G4": {
+     "det": 10,
+     "evade": 0,
+     "n": 10
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G1": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G2": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G3": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    },
+    "G4": {
+     "det": 0,
+     "evade": 10,
+     "n": 10
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 10,
+     "evade": 10,
+     "n": 20
+    },
+    "G4": {
+     "det": 10,
+     "evade": 10,
+     "n": 20
+    }
+   }
+  }
+ },
+ "source_omit": {
+  "label": "Omit: call never logged (at source)",
+  "timing": "at_source",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 4,
+     "evade": 16,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G3": {
+     "det": 4,
+     "evade": 36,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "source_relabel": {
+  "label": "Log a doctored version at source (length-preserving)",
+  "timing": "at_source",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G4": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G3": {
+     "det": 20,
+     "evade": 20,
+     "n": 40
+    },
+    "G4": {
+     "det": 20,
+     "evade": 20,
+     "n": 40
+    }
+   }
+  }
+ },
+ "source_relabel_len": {
+  "label": "Log a doctored version at source (length-changing)",
+  "timing": "at_source",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G3": {
+     "det": 20,
+     "evade": 20,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ },
+ "source_fabricate": {
+  "label": "Fabricate tool output at source (length-matched)",
+  "timing": "at_source",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G3": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    },
+    "G4": {
+     "det": 0,
+     "evade": 20,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G2": {
+     "det": 0,
+     "evade": 40,
+     "n": 40
+    },
+    "G3": {
+     "det": 20,
+     "evade": 20,
+     "n": 40
+    },
+    "G4": {
+     "det": 20,
+     "evade": 20,
+     "n": 40
+    }
+   }
+  }
+ },
+ "source_insert": {
+  "label": "Insert fabricated approval step at source",
+  "timing": "at_source",
+  "n_applicable": 40,
+  "cells": {
+   "coop": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "local": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G2": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G3": {
+     "det": 0,
+     "evade": 0,
+     "n": 20
+    },
+    "G4": {
+     "det": 20,
+     "evade": 0,
+     "n": 20
+    }
+   },
+   "all": {
+    "G0": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G1": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G2": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G3": {
+     "det": 0,
+     "evade": 0,
+     "n": 40
+    },
+    "G4": {
+     "det": 40,
+     "evade": 0,
+     "n": 40
+    }
+   }
+  }
+ }
+}
