@@ -1,0 +1,11 @@
+{
+ "D0_alt_dark": 0.3333333333333333,
+ "L4_alt_dark": 0.13333333333333333,
+ "diff": -0.19999999999999998,
+ "diff_ci": [
+  -0.4,
+  0.0
+ ],
+ "n": 30,
+ "note": "post-hoc sensitivity: invalid=1 items whose category flag=1 counted as dark; source b4_darkbench.jsonl + bandit_validation.jsonl"
+}
