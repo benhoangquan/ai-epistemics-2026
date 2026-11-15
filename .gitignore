@@ -5,3 +5,10 @@ __pycache__/
 .epi/
 # raw API caches (large; Manifold raw cache holds unhashed user ids)
 results/*/data/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

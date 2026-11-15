@@ -1,0 +1,68 @@
+% Shared preamble for the Apart sprint papers (layout follows the official template).
+% Usage: \input{../apart_preamble.tex}  after \documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}          % only Latin Modern is installed for pdflatex here
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs,array,tabularx}
+\usepackage[usenames]{xcolor}
+\usepackage[font=small,labelfont=bf,labelsep=period,justification=justified,singlelinecheck=false]{caption}
+\usepackage[authoryear,round]{natbib}
+\usepackage{url}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\bibsep}{2pt}
+\setlength{\emergencystretch}{2em}
+\sloppy
+\renewcommand{\arraystretch}{1.08}
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\floatsep}{10pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.9}\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.08}\renewcommand{\floatpagefraction}{0.8}
+\pagestyle{plain}
+
+% Bold serif headings
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}{1.4em plus .4em minus .2em}{0.5em}{\normalfont\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}{1.0em plus .3em minus .2em}{0.35em}{\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}{0.8em plus .3em minus .2em}{0.25em}{\normalfont\normalsize\bfseries\itshape}}
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}}
+\makeatother
+
+% Red bold markers for pending items and author checks
+\newcommand{\pending}[1]{\textbf{\textcolor{red}{[[PENDING: #1]]}}}
+\newcommand{\authorsnote}[1]{\textbf{\textcolor{red}{[[AUTHORS: #1]]}}}
+
+% Title block: thick rule, bold small-caps title, thin rule, footnote, authors
+\newcommand{\sprinturl}{https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15}
+\newcommand{\apartTitle}[1]{%
+  \begin{center}
+  \rule{\linewidth}{2.2pt}\\[0.9em]
+  {\Large\scshape\pdfliteral{2 Tr 0.5 w}#1\pdfliteral{0 Tr}\textsuperscript{1}\par}
+  \vspace{0.5em}
+  \rule{\linewidth}{0.6pt}
+  \end{center}
+  \footnotetext[1]{Research conducted at the \href{\sprinturl}{AI x Epistemics Research Sprint}, November 2026}%
+}
+\newcommand{\apartAuthors}{%
+  \begin{center}
+  \begin{tabular}{@{}c@{\hspace{2.2em}}c@{\hspace{2.2em}}c@{\hspace{2.2em}}c@{}}
+  \textbf{Quan Tran*} & \textbf{Alexandre Tancr\`ede*} & \textbf{Anas Elghoudane*} & \textbf{Pierre Duhoux*}
+  \end{tabular}\\[0.4em]
+  {\small *Equal contribution}\\[0.9em]
+  \textbf{With}\\
+  \textbf{Apart Research}
+  \end{center}
+}
+\newenvironment{apartAbstract}{%
+  \begin{center}{\large\bfseries Abstract}\end{center}\vspace{-0.4em}
+  \begin{quote}\itshape}{\end{quote}}
+\renewenvironment{quote}{\list{}{\leftmargin=2.2em\rightmargin=2.2em\topsep=0pt}\item\relax}{\endlist}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcommand{\file}[1]{\texttt{\detokenize{#1}}}
