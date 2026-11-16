@@ -1,0 +1,10 @@
+<section id="controls">
+<p class="eyebrow">Controls</p>
+<h2>The size depends on the judge. The sign does not.</h2>
+<div class="cols" style="margin-top:8px;">
+<div class="card"><p class="tag">TWO JUDGES</p><h3>Agree on rank and sign</h3><p class="cardtext">Stance r 0.93, fault kappa 0.84 over 525 drafts. The gemma judge reads 11 to 15 points lower.</p></div>
+<div class="card warn"><p class="tag">MEDIATOR PROMPT</p><h3>Cuts bias by 20 to 44 points</h3><p class="cardtext">“A message a neutral mediator would endorse.” The behaviour is prompt-sensitive. 16 scenarios.</p></div>
+<div class="card"><p class="tag">MULTI-OPTION DRAFTS</p><h3>Not the cause</h3><p class="cardtext">Without them gemma-4-31b is still +51.2 [38.8, 63.2], n=17.</p></div>
+</div>
+<aside>The mediator control shows prompt sensitivity, not how much partisanship the instruction “write it for me” requires. One judge, deepseek-v4-flash, also wrote the pilot scenarios, and the second judge is itself a drafter. Two Claude Haiku 5.5 runs labelled 120 drafts as LLM annotators, not human labels. Their agreement with the gemma judge was stance r 0.89 and fault kappa 0.88 to 0.90.</aside>
+</section>

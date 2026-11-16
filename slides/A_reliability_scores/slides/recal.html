@@ -1,0 +1,11 @@
+<section id="recal">
+<p class="eyebrow">A fix, tested</p>
+<h2>Recalibration helps only when its form fits</h2>
+<div class="cols" style="margin-top:4px;">
+<div class="card good"><p class="tag">LOGISTIC, LOGISTIC BIAS</p><p class="num" style="font-size:84px;white-space:nowrap;">85 → 16</p><p class="cardtext">IG-SUM percentile under a biased crowd. Well specified by construction.</p></div>
+<div class="card warn"><p class="tag">ISOTONIC</p><p class="num warn" style="font-size:84px;white-space:nowrap;">68</p><p class="cardtext">Fails even with no bias: a noisy step function can be beaten by flooding claims.</p></div>
+<div class="card"><p class="tag">NON-LOGISTIC BIAS</p><p class="num" style="font-size:84px;white-space:nowrap;">92 → 29</p><p class="cardtext">Raw to logistic. Helps, less than in the favourable case. One shape, one size.</p></div>
+</div>
+<p class="lead" style="font-size:34px;">On real Manifold data the recalibrated baseline scored worse than the raw price: −0.832 against −0.790 mean log score.</p>
+<aside>The simulated fix assumes a stationary bias. On Manifold the fitted map drifts across time blocks and question horizons shrink from about 180 days to about 18. We also found a look-ahead leak in our backtest: 9 percent of block-3 fit markets resolved after the block started. The leak favours recalibration, so it does not explain the negative result. We make no claim that recalibration improves real leaderboards.</aside>
+</section>

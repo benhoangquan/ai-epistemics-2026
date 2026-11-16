@@ -1,0 +1,11 @@
+<section id="method">
+<p class="eyebrow">Method</p>
+<h2>Train a zero-skill cheater against each rule</h2>
+<div class="cols" style="margin-top:12px;">
+<div class="card"><p class="tag">WORLD</p><h3>3,000 events</h3><p class="cardtext">5 topics, 200 honest sources with skill from 0.1 to 0.9. The crowd prior is calibrated.</p></div>
+<div class="card"><p class="tag">CHEATER</p><h3>14 parameters</h3><p class="cardtext">Event choice, report map and volume, trained with the cross-entropy method. It sees only the crowd prior and topic.</p></div>
+<div class="card good"><p class="tag">SCORE</p><h3>Its percentile</h3><p class="cardtext">Rank among the 200 honest sources on fresh worlds. 50 is the median honest source.</p></div>
+</div>
+<p class="lead">16 rules, 30 seeds, compared with 10 hand-coded cheats.</p>
+<aside>The cheater is a zero-skill policy: it has no private information. We reward it with its percentile among 200 honest sources and report held-out percentiles on 20 fresh worlds per seed, with 95 percent bootstrap intervals over seeds. 13 rules were in the original audit and 3 were added after review: two peer scores and a fixed-effects Brier.</aside>
+</section>

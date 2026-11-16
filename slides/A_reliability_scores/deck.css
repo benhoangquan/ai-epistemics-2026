@@ -1,0 +1,78 @@
+/* Shared look. Light slides on a cool grey, dark slides for the statement and the close. One accent (teal for paper A), one warning orange. */
+:root {
+  --ink: #101826;
+  --ink2: #2B3648;
+  --mute: #586071;
+  --bg: #F3F5F7;
+  --bg2: #E3E8EE;
+  --card: #FFFFFF;
+  --line: #C6CED9;
+  --dark: #101826;
+  --dark2: #1A2538;
+  --accent: #0B6E5E;
+  --accent-l: #3FC4AE;
+  --warn: #A9490F;
+  --warn-l: #F08F4E;
+  --on-dark: #E8ECF2;
+  --mute-l: #9BA6B8;
+}
+body { font-family: 'DM Sans', Arial, sans-serif; color: #101826; }
+
+section {
+  background: #F3F5F7; color: #101826;
+  padding: 128px 128px 160px;
+  counter-increment: page;
+  display: flex; flex-direction: column; gap: 40px;
+}
+section.dark { background: #101826; color: #E8ECF2; }
+section::before {
+  content: 'Apart AI x Epistemics Sprint · November 2026';
+  position: absolute; left: 128px; bottom: 64px; width: 1000px;
+  font-family: 'JetBrains Mono', monospace; font-size: 24px; color: #586071;
+}
+section::after {
+  content: counter(page);
+  position: absolute; right: 128px; bottom: 64px; width: 120px; text-align: right;
+  font-family: 'JetBrains Mono', monospace; font-size: 24px; color: #586071;
+}
+section.dark::before, section.dark::after { color: #9BA6B8; }
+section.cover::before, section.cover::after { content: none; }
+
+h1 { font-size: 96px; font-weight: 700; line-height: 1.05; margin: 0; }
+h2 { font-size: 64px; font-weight: 700; line-height: 1.1; margin: 0; color: #101826; }
+section.dark h2 { color: #E8ECF2; }
+h3 { font-size: 40px; font-weight: 700; line-height: 1.15; margin: 0; }
+
+.eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 26px; letter-spacing: 3px; text-transform: uppercase; color: #0B6E5E; }
+section.dark .eyebrow { color: #3FC4AE; }
+.lead { font-size: 40px; line-height: 1.3; color: #2B3648; }
+section.dark .lead { color: #E8ECF2; }
+.small { font-size: 28px; line-height: 1.35; color: #586071; }
+section.dark .small { color: #9BA6B8; }
+.tag { font-family: 'JetBrains Mono', monospace; font-size: 26px; color: #586071; }
+
+.cols { display: flex; flex-direction: row; gap: 40px; }
+.card { background: #FFFFFF; border: 2px solid #C6CED9; border-radius: 14px; padding: 40px; display: flex; flex-direction: column; gap: 18px; flex: 1; }
+.card.warn { border-color: #A9490F; }
+.card.good { border-color: #0B6E5E; }
+section.dark .card { background: #1A2538; border-color: #33425C; }
+.cardtext { font-size: 30px; line-height: 1.4; color: #2B3648; }
+section.dark .cardtext { color: #C9D3E2; }
+.num { font-family: 'JetBrains Mono', monospace; font-size: 120px; font-weight: 500; line-height: 1; color: #0B6E5E; }
+.num.warn { color: #A9490F; }
+section.dark .num { color: #3FC4AE; }
+section.dark .num.warn { color: #F08F4E; }
+.numunit { font-size: 28px; color: #586071; }
+
+.bars { display: flex; flex-direction: column; gap: 10px; }
+.bar { display: flex; flex-direction: row; align-items: center; gap: 24px; }
+.bar .lbl { width: 280px; font-family: 'JetBrains Mono', monospace; font-size: 28px; color: #2B3648; }
+.bar .track { flex: 1; height: 30px; background: #E3E8EE; display: flex; flex-direction: row; }
+.bar .fill { height: 30px; background: #0B6E5E; }
+.bar .fill.warn { background: #A9490F; }
+.bar .fill.mid { background: #7C8BA1; }
+.bar .val { width: 120px; font-family: 'JetBrains Mono', monospace; font-size: 28px; color: #101826; text-align: right; }
+
+.step { display: flex; flex-direction: row; gap: 28px; align-items: flex-start; }
+.dot { width: 18px; height: 18px; border-radius: 9px; background: #0B6E5E; }
+ul.list { font-size: 34px; line-height: 1.4; color: #2B3648; padding-left: 40px; margin: 0; }

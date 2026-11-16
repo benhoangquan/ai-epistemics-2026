@@ -1,0 +1,10 @@
+<section id="mechanisms" class="dark">
+<p class="eyebrow">Why rules fail</p>
+<h2>Three mechanisms</h2>
+<div class="cols" style="margin-top:12px;">
+<div class="card"><p class="tag">1 · EASY PICKS</p><h3>Absolute scores reward them</h3><p class="cardtext">Copying a prior c scores a Brier of c(1−c): 0.029 on a 97% event, 0.25 on a 50% event.</p></div>
+<div class="card"><p class="tag">2 · BROKEN BOUND</p><h3>Ratios escape the zero-skill bound</h3><p class="cardtext">For sums and means of proper-score differences the expected gain is at most zero. The Brier skill score's weights depend on outcomes.</p></div>
+<div class="card"><p class="tag">3 · BIASED BASELINE</p><h3>The bound needs a calibrated crowd</h3><p class="cardtext">With a predictable crowd bias, a source can undo it. IG-SUM climbs from 11.5 to <b style="color:#F08F4E;">81.1</b> by flooding about 990 claims.</p></div>
+</div>
+<aside>Mechanism 2 holds when claims and probabilities are fixed before outcomes are revealed, which our cheater satisfies. The bound is on expected score, not expected percentile: a mean over 10 claims has high variance, which is how a variance gamble lifts the mean information gain to 27.8.</aside>
+</section>
