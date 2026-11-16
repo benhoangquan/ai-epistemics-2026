@@ -47,3 +47,6 @@ Build: `pdflatex` twice. Body ends at the foot of page 8 (References start on pa
 | P4 | Body length | Table 2 (duplicate of A2) and Figure 0 moved or removed from the body, figures narrowed. Body is 8 pages, References on page 9 | done |
 | P5 | Reviewer's Jensen hypothesis | Not supported (copy-the-crowd 10 to 23 on peer rules). Reported as a negative finding | done |
 | P6 | REML estimator (reviewer) | Not run. Paule-Mandel was used instead (EB diagnostics). | declined, reason: the experiments agent chose PM; stated in the limitations |
+
+
+**Update, 15 Nov (authors' request):** the paper was cut from 8 to about 6 pages of body. Murphy (1973) and Jolliffe and Stephenson (2008) were removed, so the paper no longer cites a source for the improperness of ratio skill scores. It says only that the Brier skill score is not an average of per-claim differences and so falls outside the zero-skill bound. The Manifold figure moved to the appendix. Affiliations were added. The two red author markers were removed.

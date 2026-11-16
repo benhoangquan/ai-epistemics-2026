@@ -33,7 +33,7 @@ Checked on 15 Nov 2026. "Verified" means the work was opened (or a listing page 
 
 ## Added in the review response (15 Nov 2026, all checked at abstract or listing level unless noted)
 
-8. Murphy, A. H. (1973). Hedging and skill scores for probability forecasts. Journal of Applied Meteorology 12, 215-223. Journal page returned HTTP 403. Existence and title verified from the reference list of Jolliffe and Stephenson (2008). Content verified through Jolliffe and Stephenson, who write that a skill score whose reference is sample climatology "is no longer proper (Murphy 1973), except asymptotically". A search record also says Murphy shows the skill score is improper and encourages hedging, but it did not show the title, so it is not relied on.
+<!-- Murphy (1973) and Jolliffe and Stephenson (2008) removed from the paper on 15 Nov at the authors' request. -->
 9. Jolliffe, I. T. and Stephenson, D. B. (2008). Proper scores for probability forecasts can never be equitable. Monthly Weather Review 136, 1505-1510. https://stormrisk.github.io/2008/jolliffe.pdf . Full text read (6 pages).
 10. Bröcker, J. and Smith, L. A. (2007). Scoring probabilistic forecasts: the importance of being proper. Weather and Forecasting 22(2), 382-388. https://researchonline.lse.ac.uk/id/eprint/22219 . Abstract read (LSE preprint page). It argues for proper scores in general. It does not address ratio skill scores, so it is cited only for propriety. The title given by the reviewer was not found.
 11. Merkle, E. C., Steyvers, M., Mellers, B. and Tetlock, P. E. (2016). Item response models of probability judgments: application to a geopolitical forecasting tournament. Decision 3(1), 1-19. https://repository.upenn.edu/marketing_papers/364 . Abstract and listing read.
